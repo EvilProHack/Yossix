@@ -1,0 +1,3412 @@
+[
+  {
+    "id": 14131,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4726,
+      "name": "Tamon-kun Ima Docchi!?",
+      "media_format": "ONA",
+      "season": "Winter",
+      "slug": "tamonkun_ima_docchi",
+      "synopsis": "When a shiny idol is a sad mess in real life, can his number one fan help him stay upbeat?\n\nHigh schooler Utage Kinoshita works part-time as a housekeeper so that she can afford her fangirl obsession with Tamon Fukuhara, her favorite member of boy band F/ACE. When work serendipitously sends her to the home of her idol, she discovers that the real Tamon couldn\u2019t be more different from his wild and sexy onstage persona!\n\nTamon is an insecure mess in real life, and what\u2019s worse, he\u2019s threatening to quit! Utage refuses to let anyone stand in Tamon\u2019s way\u2014least of all himself. What\u2019s a fangirl to do but roll up her sleeves and support her favorite singer with everything she\u2019s got?\n\n(Source: VIZ)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13064,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/gL14ezedA8n9UcZOeViegrf4JqQvoeAwQiBNMnlD.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/gL14ezedA8n9UcZOeViegrf4JqQvoeAwQiBNMnlD.avif"
+        },
+        {
+          "id": 13065,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/vuad2muPvrYytel4MqjSbhd75I9CYC3h6GukOCqv.jpg",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/vuad2muPvrYytel4MqjSbhd75I9CYC3h6GukOCqv.jpg"
+        }
+      ]
+    },
+    "song": {
+      "id": 14043,
+      "title": "Sweet Magic",
+      "artists": [
+        {
+          "id": 2204,
+          "name": "F/ACE",
+          "slug": "face",
+          "information": "F/ACE is a boy band in *Tamon-kun Ima Docchi!?* universe.",
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16543,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19361,
+            "basename": "TamonKunImaDocchi-OP1.webm",
+            "filename": "TamonKunImaDocchi-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/TamonKunImaDocchi-OP1.webm",
+            "resolution": 720,
+            "size": 45189115,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/TamonKunImaDocchi-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14132,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4727,
+      "name": "Yuusha Party wo Oidasareta Kiyou Binbou",
+      "media_format": "ONA",
+      "season": "Winter",
+      "slug": "yuusha_party_wo_oidasareta_kiyou_binbou",
+      "synopsis": "Betrayed by his childhood friend and cast out of the Hero Party, Orhun Dura\u2014once their loyal Enchanter\u2014is branded by his former comrades as \u201ca jack-of-all-trades but a master of none.\u201d Alone, he sets out to forge a new path as a solo adventurer. His journey sparks explosive battles, deadly rivals, and unexpected allies\u2014and he\u2019ll rise to shatter every expectation. The ultimate solo comeback begins!\n\n(Source: Crunchyroll)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13066,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/yW9F7VZsap0oLoFY3Bto8eyQNRLYefVIdRrdUCLd.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/yW9F7VZsap0oLoFY3Bto8eyQNRLYefVIdRrdUCLd.avif"
+        },
+        {
+          "id": 13067,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/q1KAtpnMHImycpkLZpB9I6N64qrWDlU6VE6Cnhvi.jpg",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/q1KAtpnMHImycpkLZpB9I6N64qrWDlU6VE6Cnhvi.jpg"
+        }
+      ]
+    },
+    "song": {
+      "id": 14044,
+      "title": "Shirube",
+      "artists": [
+        {
+          "id": 2207,
+          "name": "Towa Tokoyami",
+          "slug": "towa_tokoyami",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16544,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19367,
+            "basename": "YuushaPartyWoOidasaretaKiyouBinbou-OP1.webm",
+            "filename": "YuushaPartyWoOidasaretaKiyouBinbou-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/YuushaPartyWoOidasaretaKiyouBinbou-OP1.webm",
+            "resolution": 720,
+            "size": 40753115,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/YuushaPartyWoOidasaretaKiyouBinbou-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14133,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4457,
+      "name": "Fate/strange Fake",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "fatestrange_fake",
+      "synopsis": "In a Holy Grail War, Mages (Masters) and their Heroic Spirits (Servants) fight for the control of the Holy Grail\u2014an omnipotent wish-granting device said to fulfill any desire. Years have passed since the end of the Fifth Holy Grail War in Japan. Now, signs portend the emergence of a new Holy Grail in the western American city of Snowfield. Sure enough, Masters and Servants begin to gather...\n\nA missing Servant class...\nImpossible Servant summonings...\nA nation shrouded in secrecy...\nAnd a city created as a battleground.\n\nIn the face of such irregularities, the Holy Grail War is twisted and driven into the depth of madness. Let the curtain rise on a masquerade of humans and heroes, made to dance upon the stage of a false Holy Grail. This is a Holy Grail War covered in lies.\n\nNote: The Japanese advanced premiere occurred during the \"Fate New Year's Eve TV Special 2024\" on December 31, 2024.\n\n(Source: AniList)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 12302,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/WM4KKs4zNcADXoVfeoOpKD1aIPGhBMUyBkzHPnmS.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/WM4KKs4zNcADXoVfeoOpKD1aIPGhBMUyBkzHPnmS.avif"
+        },
+        {
+          "id": 12303,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/i7gidroOokt2g6WSQPCB1KuqYyuhR4lklXXbAOEo.png",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/i7gidroOokt2g6WSQPCB1KuqYyuhR4lklXXbAOEo.png"
+        }
+      ]
+    },
+    "song": {
+      "id": 14046,
+      "title": "PROVANT",
+      "artists": [
+        {
+          "id": 622,
+          "name": "SawanoHiroyuki[nZk]",
+          "slug": "sawano_hiroyuki_nzk",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        },
+        {
+          "id": 2208,
+          "name": "Jean-Ken Johnny",
+          "slug": "jeanken_johnny",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        },
+        {
+          "id": 2209,
+          "name": "TAKUMA",
+          "slug": "takuma",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16545,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19325,
+            "basename": "FateStrangeFake-OP1.webm",
+            "filename": "FateStrangeFake-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/FateStrangeFake-OP1.webm",
+            "resolution": 720,
+            "size": 51128458,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/FateStrangeFake-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14135,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4729,
+      "name": "Goumon Baito-kun no Nichijou",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "goumon_baitokun_no_nichijou",
+      "synopsis": "In a society where torture is legal\u2014and big business\u2014Spirytus dominates the industry with skill, style, and surprisingly cheerful teamwork. Part-timers Cero, Shiu, Mikke, and Hugh tackle \u201cclient sessions,\u201d office shenanigans, and even the occasional in-house assassin\u2026all with a smile! Life at Spirytus proves that even in a world of pain, work can still be surprisingly fun!\n\n(Source: Crunchyroll)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13070,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/dRkl9Kej7r7qpzaVKhijYXAJMEbJ8cariF87rBxY.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/dRkl9Kej7r7qpzaVKhijYXAJMEbJ8cariF87rBxY.avif"
+        },
+        {
+          "id": 13071,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/LzPI2hLLuDiwXYMbjRivDN64vgXAODWRQPcteDJL.jpg",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/LzPI2hLLuDiwXYMbjRivDN64vgXAODWRQPcteDJL.jpg"
+        }
+      ]
+    },
+    "song": {
+      "id": 14048,
+      "title": "GO GO PARADISE!!",
+      "artists": [
+        {
+          "id": 80,
+          "name": "GRANRODEO",
+          "slug": "granrodeo",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16547,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19353,
+            "basename": "GoumonBaitoKun-OP1.webm",
+            "filename": "GoumonBaitoKun-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/GoumonBaitoKun-OP1.webm",
+            "resolution": 720,
+            "size": 42311600,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/GoumonBaitoKun-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14136,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4730,
+      "name": "Hanazakari no Kimitachi e",
+      "media_format": "ONA",
+      "season": "Winter",
+      "slug": "hanazakari_no_kimitachi_e",
+      "synopsis": "Mizuki Ashiya is on a mission: disguise herself as a boy and enroll in a male boarding school to meet her idol, high jump star Izumi Sano. But after successfully infiltrating the school, she discovers he\u2019s suddenly quit the sport! Now Mizuki must dodge suspicion, protect her cover, and somehow reach the boy she came all this way for\u2014all while surviving the chaos of an all-boys dorm!\n\n(Source: Crunchyroll)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13072,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/789CaPil1olG0sCXuQb6hEdRD1dR55KPiQsRG1jq.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/789CaPil1olG0sCXuQb6hEdRD1dR55KPiQsRG1jq.avif"
+        },
+        {
+          "id": 13073,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/9pRG3SNKXxCMdVSkfpuMGmVMjoFDGyOFv1fvra4p.jpg",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/9pRG3SNKXxCMdVSkfpuMGmVMjoFDGyOFv1fvra4p.jpg"
+        }
+      ]
+    },
+    "song": {
+      "id": 14049,
+      "title": "Adrena",
+      "artists": [
+        {
+          "id": 726,
+          "name": "YOASOBI",
+          "slug": "yoasobi",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16548,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19307,
+            "basename": "Hanakimi-OP1.webm",
+            "filename": "Hanakimi-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/Hanakimi-OP1.webm",
+            "resolution": 720,
+            "size": 40391907,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/Hanakimi-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14138,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4731,
+      "name": "Ikoku Nikki",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "ikoku_nikki",
+      "synopsis": "Reclusive novelist Makio Koudai has always preferred the company of books\u2014but when her sister and brother-in-law pass away, Makio unexpectedly becomes the guardian of her 15-year-old niece, Asa Takumi. As they navigate grief, clashing personalities, and the challenges of living together, the two slowly open their hearts to each other, discovering warmth, understanding, and the meaning of family.\n\n(Source: Crunchyroll)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13074,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/3CabJF44SUnsBExgukBEdQqZJibRu9ws8dbZGRs4.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/3CabJF44SUnsBExgukBEdQqZJibRu9ws8dbZGRs4.avif"
+        },
+        {
+          "id": 13075,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/H8bh5POWFQyVAWPhWf3F3G5wztP42OJw5cTk5M2F.png",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/H8bh5POWFQyVAWPhWf3F3G5wztP42OJw5cTk5M2F.png"
+        }
+      ]
+    },
+    "song": {
+      "id": 14051,
+      "title": "Sonare",
+      "artists": [
+        {
+          "id": 1853,
+          "name": "TOMOO",
+          "slug": "tomoo",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16550,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19327,
+            "basename": "IkokuNikki-OP1.webm",
+            "filename": "IkokuNikki-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/IkokuNikki-OP1.webm",
+            "resolution": 720,
+            "size": 31436030,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/IkokuNikki-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14140,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4732,
+      "name": "Kirei ni Shitemoraemasu ka.",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "kirei_ni_shitemoraemasu_ka",
+      "synopsis": "With an endearing protagonist and luscious art, this seaside slice-of-life story offers tranquility in the chaos of the modern world. For two years, Wakana Kinme has run a laundry service in the seaside resort town of Atami, where she's built a fulfilling life making friends with the locals and visiting hot springs. Although Wakana has no knowledge of her own past, her cleaning services safeguard memories imbued in customers' precious items.\n\n(Source: AniList)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13076,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/BYbTusLBaBpqMjnwv6gUvZbygirnAIWwxKGc905g.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/BYbTusLBaBpqMjnwv6gUvZbygirnAIWwxKGc905g.avif"
+        },
+        {
+          "id": 13077,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/Hnj9QuUtkZBcF63ywTiK1IhebEz37RbmZamij7Zb.jpg",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/Hnj9QuUtkZBcF63ywTiK1IhebEz37RbmZamij7Zb.jpg"
+        }
+      ]
+    },
+    "song": {
+      "id": 14054,
+      "title": "Kirei.",
+      "artists": [
+        {
+          "id": 2211,
+          "name": "Yuu.",
+          "slug": "yuu",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16552,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19315,
+            "basename": "KireiNiShitemoraemasuKa-OP1.webm",
+            "filename": "KireiNiShitemoraemasuKa-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/KireiNiShitemoraemasuKa-OP1.webm",
+            "resolution": 720,
+            "size": 39675836,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/KireiNiShitemoraemasuKa-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14142,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4733,
+      "name": "Kizoku Tensei: Megumareta Umare kara Saikyou no Chikara wo Eru",
+      "media_format": "ONA",
+      "season": "Winter",
+      "slug": "kizoku_tensei_megumareta_umare_kara_saikyou_no_chikara_wo_eru",
+      "synopsis": "Noah, the world\u2019s strongest six-year-old, has been privileged enough to be reborn as the emperor\u2019s 13th child. What\u2019s more, he\u2019s been overpowered with an infinite level cap and a cheat that stacks the powers of anyone who serves him. But even privilege has its problems\u2014the glittering facade of high society hides a world of conspiracies, schemes, and power struggles.\n\n(Source: Crunchyroll)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13078,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/AttPSlxINUwu6gFM8d3HHiGIVqrXuV5xSNUWhoxf.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/AttPSlxINUwu6gFM8d3HHiGIVqrXuV5xSNUWhoxf.avif"
+        },
+        {
+          "id": 13079,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/kubwknp0aqt34sdNZjlz1JFU2d65yRwxM5fZ3Mzk.png",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/kubwknp0aqt34sdNZjlz1JFU2d65yRwxM5fZ3Mzk.png"
+        }
+      ]
+    },
+    "song": {
+      "id": 14053,
+      "title": "Break off",
+      "artists": [
+        {
+          "id": 2212,
+          "name": "SUPER\u2605DRAGON",
+          "slug": "superdragon",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16554,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19317,
+            "basename": "KizokuTensei-OP1.webm",
+            "filename": "KizokuTensei-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/KizokuTensei-OP1.webm",
+            "resolution": 720,
+            "size": 40438429,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/KizokuTensei-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14144,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4734,
+      "name": "Majutsushi Kunon wa Mieteiru",
+      "media_format": "ONA",
+      "season": "Winter",
+      "slug": "majutsushi_kunon_wa_mieteiru",
+      "synopsis": "Kunon, a young man who cannot see, has the goal of creating new eyes with water magic. After just five months of learning sorcery, Kunon surpassed his own mentor and honed his talent as he tried to do a feat that's never been done before. A fantasy about a young man, a blind genius, who opens up the world through curiosity in the pursuit for magic is about to begin.\n\n(Source: Crunchyroll)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13080,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/ZSotCTERLzxfsTfQkaYHwFCjT9EAxF47PaVeZOo2.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/ZSotCTERLzxfsTfQkaYHwFCjT9EAxF47PaVeZOo2.avif"
+        },
+        {
+          "id": 13081,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/micrf7Rn7y8hWws1sWEpwvqZAybbhqcEf5OtQpjk.png",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/micrf7Rn7y8hWws1sWEpwvqZAybbhqcEf5OtQpjk.png"
+        }
+      ]
+    },
+    "song": {
+      "id": 14057,
+      "title": "Rakenaria no Yume",
+      "artists": [
+        {
+          "id": 980,
+          "name": "Isekaijoucho",
+          "slug": "isekaijoucho",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16556,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19313,
+            "basename": "MajutsushiKunonWaMieteiru-OP1.webm",
+            "filename": "MajutsushiKunonWaMieteiru-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/MajutsushiKunonWaMieteiru-OP1.webm",
+            "resolution": 720,
+            "size": 46083291,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/MajutsushiKunonWaMieteiru-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14146,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4735,
+      "name": "Osananajimi to wa Love Comedy ni Naranai",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "osananajimi_to_wa_love_comedy_ni_naranai",
+      "synopsis": "Eeyuu, a high school boy, has a problem! Two childhood friends \"Shio\" and \"Akari\" who go to the same high school are too cute! If they find out that I'm the only one looking sexually at them now that they've grown up, even though I have no intention of doing so... that would be too much! On the other hand, the two childhood friends also have their own secrets...? It's so awkward! It's complicated! But childhood friends are the best! A sweet and impatient love triangle love comedy where you can't be honest!\n\n(Source: AniList)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13082,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/160cbALsRFuI1bUFYiaDpdCdtrA4J1W9NQrQXvJI.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/160cbALsRFuI1bUFYiaDpdCdtrA4J1W9NQrQXvJI.avif"
+        },
+        {
+          "id": 13083,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/nIaEQ6Ef1qerTyZC6OrmOPfILfcil2rKz8VlsHeR.jpg",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/nIaEQ6Ef1qerTyZC6OrmOPfILfcil2rKz8VlsHeR.jpg"
+        }
+      ]
+    },
+    "song": {
+      "id": 14059,
+      "title": "I Love You \u2661",
+      "artists": [
+        {
+          "id": 272,
+          "name": "Yuu Serizawa",
+          "slug": "yuu_serizawa",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": "Akari Hiodoshi"
+          }
+        },
+        {
+          "id": 537,
+          "name": "HoneyWorks",
+          "slug": "honeyworks",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        },
+        {
+          "id": 1589,
+          "name": "Sae Hiratsuka",
+          "slug": "sae_hiratsuka",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": "Runa Tsukimi"
+          }
+        },
+        {
+          "id": 2213,
+          "name": "Rin Kusumi",
+          "slug": "rin_kusumi",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": "Shio Minamo"
+          }
+        },
+        {
+          "id": 2214,
+          "name": "Yuuki Yamamoto",
+          "slug": "yuuki_yamamoto",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": "Haru Hinata"
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16558,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19309,
+            "basename": "Osalove-OP1.webm",
+            "filename": "Osalove-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/Osalove-OP1.webm",
+            "resolution": 720,
+            "size": 48037069,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/Osalove-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14148,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4736,
+      "name": "Vigilante: Boku no Hero Academia Illegals 2nd Season",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "vigilante_boku_no_hero_academia_illegals_2nd_season",
+      "synopsis": "The second season of *Vigilante: Boku no Hero Academia Illegals*.",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13084,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/tjPlqtLkwCBiZOpUxd1NCxSOIL1hMiR5ZJoSZfLf.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/tjPlqtLkwCBiZOpUxd1NCxSOIL1hMiR5ZJoSZfLf.avif"
+        },
+        {
+          "id": 13085,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/S9lrzEeAY0j4DRjwTPy8C33t0V7Qfw50O85S4Pnu.jpg",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/S9lrzEeAY0j4DRjwTPy8C33t0V7Qfw50O85S4Pnu.jpg"
+        }
+      ]
+    },
+    "song": {
+      "id": 14061,
+      "title": "CATCH!!!",
+      "artists": [
+        {
+          "id": 1168,
+          "name": "Surii",
+          "slug": "surii",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16560,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19343,
+            "basename": "BokuNoHeroAcademiaVigilanteS2-OP1.webm",
+            "filename": "BokuNoHeroAcademiaVigilanteS2-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/BokuNoHeroAcademiaVigilanteS2-OP1.webm",
+            "resolution": 720,
+            "size": 52233119,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/BokuNoHeroAcademiaVigilanteS2-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14150,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4737,
+      "name": "MF Ghost 3rd Season",
+      "media_format": "ONA",
+      "season": "Winter",
+      "slug": "mf_ghost_3rd_season",
+      "synopsis": "The third season of *MF Ghost*.",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13086,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/rQMUJaNRUkEsO7x8NHWTgMAVZnHVRd9VdtUrCfBq.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/rQMUJaNRUkEsO7x8NHWTgMAVZnHVRd9VdtUrCfBq.avif"
+        },
+        {
+          "id": 13087,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/g0Lq2gWJK9tLXuLKzU0n2G3x8Cie7h88Dxmf2Y75.png",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/g0Lq2gWJK9tLXuLKzU0n2G3x8Cie7h88Dxmf2Y75.png"
+        }
+      ]
+    },
+    "song": {
+      "id": 14063,
+      "title": "TIMELESS POWER feat. MOTSU",
+      "artists": [
+        {
+          "id": 272,
+          "name": "Yuu Serizawa",
+          "slug": "yuu_serizawa",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        },
+        {
+          "id": 1419,
+          "name": "MOTSU",
+          "slug": "motsu",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16562,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19341,
+            "basename": "MFGhostS3-OP1.webm",
+            "filename": "MFGhostS3-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/MFGhostS3-OP1.webm",
+            "resolution": 720,
+            "size": 42090644,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/MFGhostS3-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14152,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4738,
+      "name": "29-sai Dokushin Chuuken Boukensha no Nichijou",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "29sai_dokushin_chuuken_boukensha_no_nichijou",
+      "synopsis": "Having spent his childhood in the slums, Hajime Shinonome desperately sought strength to survive.\n\nNow, he enjoys a peaceful and carefree life as a resident adventurer of the Komai Village.\n\nOne day, during a quest, he ventured into a dungeon and finds a young girl being partially eaten by a weakest kind of monster, a slime!\n\nThe girl's name was Lirui. Having been abandoned by her parents, she had no place to go and entered the dungeon alone in order to stay alive. Hajime couldn't just leave her there, so he took her back to the village to live with him!\n\n(Source: Crunchyroll)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13088,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/x1U5HEN4g7t1nmyILpATdyLMEnd0kqFbqZgMQCta.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/x1U5HEN4g7t1nmyILpATdyLMEnd0kqFbqZgMQCta.avif"
+        },
+        {
+          "id": 13089,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/oDl52WWNIaKCsuXAFNgMOgB8RQg7KI0YzylKK1FZ.jpg",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/oDl52WWNIaKCsuXAFNgMOgB8RQg7KI0YzylKK1FZ.jpg"
+        }
+      ]
+    },
+    "song": {
+      "id": 14065,
+      "title": "Kimi ga Tomoshite Kureta Hikari wo Ima",
+      "artists": [
+        {
+          "id": 537,
+          "name": "HoneyWorks",
+          "slug": "honeyworks",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        },
+        {
+          "id": 2215,
+          "name": "Hanon",
+          "slug": "hanon",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16564,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19390,
+            "basename": "29SaiDokushinChuukenBoukenshaNoNichijou-OP1.webm",
+            "filename": "29SaiDokushinChuukenBoukenshaNoNichijou-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/29SaiDokushinChuukenBoukenshaNoNichijou-OP1.webm",
+            "resolution": 720,
+            "size": 40428937,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/29SaiDokushinChuukenBoukenshaNoNichijou-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14153,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4739,
+      "name": "Arne no Jikenbo",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "arne_no_jikenbo",
+      "synopsis": "Arne Neunt\u00f6te is a vampire detective who manipulates supernatural powers. Lynn Reinwei\u00df is a nobleman\u2019s daughter who loves vampires. Their worlds should never have crossed, but they join hands to solve a bloody mystery.\n\nIn the darkest of nights, Lynn finds herself in desperate need of help. Then she wanders into the mysterious city of \"L\u00fcgenberg\", where non-humans live. Lynn's world changes drastically when she encounters \"Arne\", a vampire who is called \"the worst\" in the city. And tonight, a new \"murder case\" has occurred. What is the truth behind the bizarre incidents that take place in a world where humanity and the bizarre intersect?\n\n\"Come on, human. You may dance merrily under the crimson moon.\u201d\n\n(Source: AniList)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13090,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/jLt3rTF7FxyQdxv9eXy1K9X3ZhIbLPzvULdjbo2W.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/jLt3rTF7FxyQdxv9eXy1K9X3ZhIbLPzvULdjbo2W.avif"
+        },
+        {
+          "id": 13091,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/jIiE4w3JwfwkakZ4WdTklrJ3gD4h1LnUgiMedncf.jpg",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/jIiE4w3JwfwkakZ4WdTklrJ3gD4h1LnUgiMedncf.jpg"
+        }
+      ]
+    },
+    "song": {
+      "id": 14066,
+      "title": "Q.E.D.",
+      "artists": [
+        {
+          "id": 1236,
+          "name": "Sou",
+          "slug": "sou",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16565,
+        "episodes": "1",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": 1,
+        "videos": [
+          {
+            "id": 19321,
+            "basename": "ArneNoJikenbo-OP1.webm",
+            "filename": "ArneNoJikenbo-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/ArneNoJikenbo-OP1.webm",
+            "resolution": 720,
+            "size": 43791229,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/ArneNoJikenbo-OP1.webm"
+          }
+        ]
+      },
+      {
+        "id": 16638,
+        "episodes": "2-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": true,
+        "version": 2,
+        "videos": [
+          {
+            "id": 19372,
+            "basename": "ArneNoJikenbo-OP1v2.webm",
+            "filename": "ArneNoJikenbo-OP1v2",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/ArneNoJikenbo-OP1v2.webm",
+            "resolution": 720,
+            "size": 44493607,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/ArneNoJikenbo-OP1v2.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14154,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4740,
+      "name": "Champignon no Majo",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "champignon_no_majo",
+      "synopsis": "Luna, a black witch who lives quietly in a poisonous mushroom house, deep in the Black Forest. She lives in the city making high-efficiency medicines, but she is rumored to be rumored to die if she is touched, and she is avoided ... The life of a witch who doesn't know the warmth of people is carefully and momentarily drawn.\n\n(Source: AniList)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13092,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/4VB3eXCRetZtJN4vW0B77gWMNQE5xAZOo1zMdG8x.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/4VB3eXCRetZtJN4vW0B77gWMNQE5xAZOo1zMdG8x.avif"
+        },
+        {
+          "id": 13093,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/LQqj5VpX5RnWNaureUuaqJc5XFA58EPYkSHpm2VC.jpg",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/LQqj5VpX5RnWNaureUuaqJc5XFA58EPYkSHpm2VC.jpg"
+        }
+      ]
+    },
+    "song": {
+      "id": 14067,
+      "title": "Mahoutsukai no Nikki",
+      "artists": [
+        {
+          "id": 2216,
+          "name": "Rosu",
+          "slug": "rosu",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16566,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19322,
+            "basename": "ChampignonNoMajo-OP1.webm",
+            "filename": "ChampignonNoMajo-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/ChampignonNoMajo-OP1.webm",
+            "resolution": 720,
+            "size": 47395230,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/ChampignonNoMajo-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14156,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4741,
+      "name": "Jujutsu Kaisen: Shimetsu Kaiyuu - Zenpen",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "jujutsu_kaisen_shimetsu_kaiyuu_zenpen",
+      "synopsis": "The third season of *Jujutsu Kaisen*.\n\nAfter the Shibuya Incident, a deadly jujutsu battle known as the Culling Game orchestrated by Noritoshi Kamo erupts across ten colonies in Japan.\n\nHaunted by guilt over the mass killings in Shibuya and wary of Sukuna\u2019s interest in Fushiguro, Itadori chooses not to return to Jujutsu High. Instead, he teams up with Choso to exorcise the countless cursed spirits unleashed by Noritoshi Kamo. Amid this chaos, the Jujutsu Headquarters revokes Yuji Itadori\u2019s suspended death sentence and appoints special-grade sorcerer Yuta Okkotsu as his executioner.\n\nNewly awakened modern sorcerers and resurrected ancient ones, now fighting as players in the Culling Game, collide with conflicting motives, driving the world once more toward an age ruled by jujutsu.\n\n(Source: TOHO Animation)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13127,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/a1piCTHptdINFembaXoPF19Yq8qqX1vAzHZsGZqw.jpg",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/a1piCTHptdINFembaXoPF19Yq8qqX1vAzHZsGZqw.jpg"
+        },
+        {
+          "id": 13143,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/k4vulq80FqlPXKsilFNIbgxjTi9e7e60XsfhdleC.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/k4vulq80FqlPXKsilFNIbgxjTi9e7e60XsfhdleC.avif"
+        }
+      ]
+    },
+    "song": {
+      "id": 14069,
+      "title": "AIZO",
+      "artists": [
+        {
+          "id": 1114,
+          "name": "King Gnu",
+          "slug": "king_gnu",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16568,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19311,
+            "basename": "JujutsuKaisenS3-OP1.webm",
+            "filename": "JujutsuKaisenS3-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/JujutsuKaisenS3-OP1.webm",
+            "resolution": 720,
+            "size": 46546073,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/JujutsuKaisenS3-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14158,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4742,
+      "name": "Mayonaka Heart Tune",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "mayonaka_heart_tune",
+      "synopsis": "When Arisu Yamabuki was all alone in bed at night, he was able to find solace in the voice of a radio host who went by \u201cApollo.\u201d However, one day, she simply stopped broadcasting without any explanation. Years then passed, and Arisu is now a second-year high-schooler. He makes it his mission to search for Apollo, as there is something he wants to tell her. He doesn\u2019t know what she looks like, or even what her real name is, but he manages to get some leads on her in his school\u2019s broadcasting club. That\u2019s where he meets four girls who all dream to get a job where they can make full use of their voices! Just who is Apollo, and how will those four\u2019s dreams pan out?\n\n(Source: K Manga)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13097,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/uzjcICikX80KvxcbFqAFOttTOJ6uMcStHagu5A2g.jpg",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/uzjcICikX80KvxcbFqAFOttTOJ6uMcStHagu5A2g.jpg"
+        },
+        {
+          "id": 13142,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/l24QpuKyXdzhvQ4rQpe7qrKlhQWfMJqdlhTJdNM0.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/l24QpuKyXdzhvQ4rQpe7qrKlhQWfMJqdlhTJdNM0.avif"
+        }
+      ]
+    },
+    "song": {
+      "id": 14071,
+      "title": "Tsuki ni Mukatte Ute",
+      "artists": [
+        {
+          "id": 1966,
+          "name": "Suisei Hoshimachi",
+          "slug": "suisei_hoshimachi",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16570,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19339,
+            "basename": "MayonakaHeartTune-OP1.webm",
+            "filename": "MayonakaHeartTune-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/MayonakaHeartTune-OP1.webm",
+            "resolution": 720,
+            "size": 44674131,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/MayonakaHeartTune-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14159,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4743,
+      "name": "Maou no Musume wa Yasashi Sugiru!!",
+      "media_format": "ONA",
+      "season": "Winter",
+      "slug": "maou_no_musume_wa_yasashi_sugiru",
+      "synopsis": "Once feared as the ruler of all demons, Demon King Ahriman seeks to conquer the world\u2026until he\u2019s stopped by an unexpected force: his daughter, Dou! Too kind for chaos and too gentle for war, Dou melts the hearts of demons, humans, and even angels. Desperate to restore demon pride, Ahriman\u2019s aide Jahi vows to train Dou to become a proper demon. But is Jahi any match for Dou\u2019s compassion?!\n\n(Source: Crunchyroll)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13099,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/bB4dAB2Qs0xWzIFBoW3ViEKroI1UZc7bUEhcu3g3.jpg",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/bB4dAB2Qs0xWzIFBoW3ViEKroI1UZc7bUEhcu3g3.jpg"
+        },
+        {
+          "id": 13141,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/ebEjoE10wpJpcuVRYhAKD3HJCmh1xoqrQelwI6YW.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/ebEjoE10wpJpcuVRYhAKD3HJCmh1xoqrQelwI6YW.avif"
+        }
+      ]
+    },
+    "song": {
+      "id": 14072,
+      "title": "We Can Do!!",
+      "artists": [
+        {
+          "id": 514,
+          "name": "Kaori Ishihara",
+          "slug": "kaori_ishihara",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16571,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19319,
+            "basename": "MaouNoMusumeWaYasashiSugiru-OP1.webm",
+            "filename": "MaouNoMusumeWaYasashiSugiru-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/MaouNoMusumeWaYasashiSugiru-OP1.webm",
+            "resolution": 720,
+            "size": 34494053,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/MaouNoMusumeWaYasashiSugiru-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14162,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4745,
+      "name": "Yuusha Party ni Kawaii Ko ga Ita no de, Kokuhaku Shitemita.",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "yuusha_party_ni_kawaii_ko_ga_ita_no_de_kokuhaku_shitemita",
+      "synopsis": "Reincarnated as a mid-tier demon, Youki had one job: Crush the hero\u2019s party. Then he saw the party\u2019s priestess, Cecilia, and fell for her hard. Now this lovestruck demon vows to confess his feelings, even if it means betraying the Demon King. Will love bloom between these two sworn enemies?\n\n(Source: Crunchyroll)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13103,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/ZgdyA0xvmG2zDsx5oKvp4tWpvSIEKnObnbN3FPPz.jpg",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/ZgdyA0xvmG2zDsx5oKvp4tWpvSIEKnObnbN3FPPz.jpg"
+        },
+        {
+          "id": 13140,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/7jHR9p8lzo3jdnnFMpAlcA608rsWWiF8kVH9hf7Z.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/7jHR9p8lzo3jdnnFMpAlcA608rsWWiF8kVH9hf7Z.avif"
+        }
+      ]
+    },
+    "song": {
+      "id": 14075,
+      "title": "Lavish!!",
+      "artists": [
+        {
+          "id": 1740,
+          "name": "Yoshino",
+          "slug": "yoshino",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16574,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19373,
+            "basename": "YuuKawa-OP1.webm",
+            "filename": "YuuKawa-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/YuuKawa-OP1.webm",
+            "resolution": 720,
+            "size": 40907800,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/YuuKawa-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14164,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4747,
+      "name": "Okiraku Ryoushu no Tanoshii Ryouchi Bouei",
+      "media_format": "ONA",
+      "season": "Winter",
+      "slug": "okiraku_ryoushu_no_tanoshii_ryouchi_bouei",
+      "synopsis": "Van, fourth son of a marquis, is just a toddler when he realizes he\u2019s been reincarnated. Thanks to his literal lifetime of knowledge, he\u2019s raised as a child prodigy\u2014until his production magic manifests, and it\u2019s the last thing his snooty mage family wants to see! His disappointed father banishes him to a podunk town on the verge of collapse, yet Van can only see the place\u2019s potential. Can our hero\u2019s bastion of battlements build a better life than battle magic ever could?!\n\n(Source: Crunchyroll)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13107,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/E7gAGMDGYDCgB70mug5vpZviB4XrRMwJ5qi2m5dP.jpg",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/E7gAGMDGYDCgB70mug5vpZviB4XrRMwJ5qi2m5dP.jpg"
+        },
+        {
+          "id": 13138,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/xqn5JNrt2np8QRTF5JGYwYQx31LmbZ3teiPrUMsA.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/xqn5JNrt2np8QRTF5JGYwYQx31LmbZ3teiPrUMsA.avif"
+        }
+      ]
+    },
+    "song": {
+      "id": 14077,
+      "title": "Okirakuzation",
+      "artists": [
+        {
+          "id": 1378,
+          "name": "Rei Nakashima",
+          "slug": "rei_nakashima",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16576,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19324,
+            "basename": "OkirakuRyoushu-OP1.webm",
+            "filename": "OkirakuRyoushu-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/OkirakuRyoushu-OP1.webm",
+            "resolution": 720,
+            "size": 48851142,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/OkirakuRyoushu-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14168,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4748,
+      "name": "Shibou Yuugi de Meshi wo Kuu.",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "shibou_yuugi_de_meshi_wo_kuu",
+      "synopsis": "At just seventeen, Yuki is a professional death game player. She\u2019s survived enough rounds to know that survival is calculation, not luck\u2014and that failure is final. For most players, the games are a nightmare with no escape. For Yuki, they\u2019re simply business. Yet in a world where rooms turn into graves and every choice could be her last, even experience offers no protection.\n\n(Source: Crunchyroll)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13109,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/DfViTXYbPfF90Main7m7sdA2IMyMcJJ5kUXaFQcr.jpg",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/DfViTXYbPfF90Main7m7sdA2IMyMcJJ5kUXaFQcr.jpg"
+        },
+        {
+          "id": 13137,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/LmtDKJ0qQIfmUNGvKXpdGMtgvqBvd9e0ibHzftE2.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/LmtDKJ0qQIfmUNGvKXpdGMtgvqBvd9e0ibHzftE2.avif"
+        }
+      ]
+    },
+    "song": {
+      "id": 14081,
+      "title": "\u00acErsterbend",
+      "artists": []
+    },
+    "animethemeentries": [
+      {
+        "id": 16580,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19329,
+            "basename": "ShibouYuugi-OP1.webm",
+            "filename": "ShibouYuugi-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/ShibouYuugi-OP1.webm",
+            "resolution": 720,
+            "size": 39397870,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/ShibouYuugi-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14170,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4749,
+      "name": "Odayaka Kizoku no Kyuuka no Susume.",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "odayaka_kizoku_no_kyuuka_no_susume",
+      "synopsis": "Lizel, a brilliant young chancellor of a powerful nation in a fantasy realm, suddenly finds himself transported to another world\u2014mid-conversation, no less. Unfazed, he decides to treat it like a vacation and become an adventurer! Teaming up with Gil, a lone wolf top-ranker, Lizel uses his wit, charm, and intellect to navigate this new world. So begin the whimsical adventures of a noble off duty!\n\n(Source: Crunchyroll)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13111,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/bxe59urVrmfqlgFUOCTP3vZ5BjqBgbsMuacaC5ro.jpg",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/bxe59urVrmfqlgFUOCTP3vZ5BjqBgbsMuacaC5ro.jpg"
+        },
+        {
+          "id": 13136,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/DrN1tNBuvMy6q3Mip1TLLvqZ5FQUo5tkxUqvRJ52.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/DrN1tNBuvMy6q3Mip1TLLvqZ5FQUo5tkxUqvRJ52.avif"
+        }
+      ]
+    },
+    "song": {
+      "id": 14083,
+      "title": "Gypso",
+      "artists": [
+        {
+          "id": 1762,
+          "name": "Hikaru Makishima",
+          "slug": "hikaru_makishima",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16582,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19357,
+            "basename": "OdayakaKizoku-OP1.webm",
+            "filename": "OdayakaKizoku-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/OdayakaKizoku-OP1.webm",
+            "resolution": 720,
+            "size": 43280234,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/OdayakaKizoku-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14175,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4752,
+      "name": "Mato Seihei no Slave 2",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "mato_seihei_no_slave_2",
+      "synopsis": "The second season of *Mato Seihei no Slave*.",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13117,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/KSbpycTeB80V9a3T5xSiE1mJPk49SWqNzbY3nSgU.png",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/KSbpycTeB80V9a3T5xSiE1mJPk49SWqNzbY3nSgU.png"
+        },
+        {
+          "id": 13133,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/hd8IBLgjrnu0XckatCoZDRKqDUC4qS0sYH5RbKB4.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/hd8IBLgjrnu0XckatCoZDRKqDUC4qS0sYH5RbKB4.avif"
+        }
+      ]
+    },
+    "song": {
+      "id": 14088,
+      "title": "Hikari yo, Boku ni.",
+      "artists": [
+        {
+          "id": 11,
+          "name": "Akari Kitou",
+          "slug": "akari_kitou",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16587,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19355,
+            "basename": "MabotaiS2-OP1.webm",
+            "filename": "MabotaiS2-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/MabotaiS2-OP1.webm",
+            "resolution": 720,
+            "size": 34385774,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/MabotaiS2-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14177,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4753,
+      "name": "\"Omae Gotoki ga Maou ni Kateru to Omou na\" to Yuusha Party wo Tsuihou Sareta node, Outo de Kimama ni Kurashitai",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "omae_gotoki_ga_maou_ni_kateru_to_omou_na_to_yuusha_party_wo_tsuihou_sareta_node_outo_de_kimama_ni_kurashitai",
+      "synopsis": "Flum has been chosen by God to be in the hero's party despite having stats of zero across the board. All she has is the \"Reversal\" ability that she still doesn't fully understand. Predictably, she proves useless in battle, but she refuses to give up and continues to do all she can for the party. Her partymate Jean, a genius and renowned sage, picks on her at every opportunity and eventually sells her off into slavery. Even as a slave, she's treated as incompetent and persecuted, and ultimately thrown to monsters as bait for her master's entertainment. Flum is left with two options: take up the cursed sword that inevitably brings death to its wielder, or be eaten by monsters. The moment she chooses to fight back is when the \"Reversal\" of her life begins...\n\n(Source: Crunchyroll)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13119,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/vGGu1jwC6fokTmpAaM8o13hWiWtUBTUzV3NGiDi3.png",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/vGGu1jwC6fokTmpAaM8o13hWiWtUBTUzV3NGiDi3.png"
+        },
+        {
+          "id": 13132,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/9XWPUKYqAGTKK6EWlPCVxCQvBBVdTlLHQRi5wV2h.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/9XWPUKYqAGTKK6EWlPCVxCQvBBVdTlLHQRi5wV2h.avif"
+        }
+      ]
+    },
+    "song": {
+      "id": 14090,
+      "title": "Liberator",
+      "artists": [
+        {
+          "id": 1647,
+          "name": "PassCode",
+          "slug": "passcode",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16589,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19369,
+            "basename": "OmaGoto-OP1.webm",
+            "filename": "OmaGoto-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/OmaGoto-OP1.webm",
+            "resolution": 720,
+            "size": 29387641,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/OmaGoto-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14179,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4754,
+      "name": "Douse, Koishite Shimaunda. Season 2",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "douse_koishite_shimaunda_season_2",
+      "synopsis": "The second season of *Douse, Koishite Shimaunda*.",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13121,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/CSCVYmG1lVtKoOI5nYLyr2VzWDFk1grj8ZdLUqMb.jpg",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/CSCVYmG1lVtKoOI5nYLyr2VzWDFk1grj8ZdLUqMb.jpg"
+        },
+        {
+          "id": 13131,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/nvsnDY82150cUOnGTCFTMl8hmKc1BCZGcf0uwUz6.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/nvsnDY82150cUOnGTCFTMl8hmKc1BCZGcf0uwUz6.avif"
+        }
+      ]
+    },
+    "song": {
+      "id": 14092,
+      "title": "L to R",
+      "artists": [
+        {
+          "id": 2222,
+          "name": "ME:I",
+          "slug": "mei",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16591,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19375,
+            "basename": "KoishimaS2-OP1.webm",
+            "filename": "KoishimaS2-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/KoishimaS2-OP1.webm",
+            "resolution": 720,
+            "size": 21714656,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/KoishimaS2-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14181,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4755,
+      "name": "Enen no Shouboutai: San no Shou Part 2",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "enen_no_shouboutai_san_no_shou_part_2",
+      "synopsis": "The second cour of *Enen no Shouboutai: San no Shou*.\n\nAs chaos spreads, Shinra and Company 8 fight to stop a final, world-ending blaze.\n\n(Source: Crunchyroll News)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13123,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/IOkWlROq24Xv0Ep5oRrpYIw1nifi5TM9GFbvCWjA.png",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/IOkWlROq24Xv0Ep5oRrpYIw1nifi5TM9GFbvCWjA.png"
+        },
+        {
+          "id": 13130,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/mnv7yXM5Tmt7DkFowufV3BwSZlYIATcE2JQMhiUP.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/mnv7yXM5Tmt7DkFowufV3BwSZlYIATcE2JQMhiUP.avif"
+        }
+      ]
+    },
+    "song": {
+      "id": 14094,
+      "title": "Ignis",
+      "artists": [
+        {
+          "id": 828,
+          "name": "Takanori Nishikawa",
+          "slug": "takanori_nishikawa",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16593,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19349,
+            "basename": "EnenNoShouboutaiS3Part2-OP1.webm",
+            "filename": "EnenNoShouboutaiS3Part2-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/EnenNoShouboutaiS3Part2-OP1.webm",
+            "resolution": 720,
+            "size": 46821104,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/EnenNoShouboutaiS3Part2-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14182,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4756,
+      "name": "Trigun Stargaze",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "trigun_stargaze",
+      "synopsis": "Sequel season to *Trigun Stampede*.",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13125,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/NYepemJ9ncB7nndeIQv4XgiFDIqlbJEu1GhNz7vc.jpg",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/NYepemJ9ncB7nndeIQv4XgiFDIqlbJEu1GhNz7vc.jpg"
+        },
+        {
+          "id": 13129,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/mS1XOJ3DgF6C9kGZFROPqvXWbOiZa2JIBAsIa9uz.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/mS1XOJ3DgF6C9kGZFROPqvXWbOiZa2JIBAsIa9uz.avif"
+        }
+      ]
+    },
+    "song": {
+      "id": 14095,
+      "title": "PICARESQUE HERO",
+      "artists": [
+        {
+          "id": 536,
+          "name": "ano",
+          "slug": "ano",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16594,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19331,
+            "basename": "TrigunStargaze-OP1.webm",
+            "filename": "TrigunStargaze-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/TrigunStargaze-OP1.webm",
+            "resolution": 720,
+            "size": 53887344,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/TrigunStargaze-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14184,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4757,
+      "name": "Hell Mode: Yarikomi Suki no Gamer wa Haisettei no Isekai de Musou Suru",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "hell_mode_yarikomi_suki_no_gamer_wa_haisettei_no_isekai_de_musou_suru",
+      "synopsis": "Thirty-five-year-old Kenichi Yamada has spent his life playing every single MMORPG he can get his hands on. Tired of new games that cater to casual players, he leaps at the chance to try out a never-ending game with an intimidating \u201cHell Mode\u201d that raises the difficulty (and chances to level up) to impossible heights. But, as soon as he selects the \u201cSummoner,\u201d Kenichi finds himself transported into the world of the game and reborn to a family of serfs as a baby named Allen! With nothing but his memories and wits to guide him, Allen sets off to conquer Hell Mode, unearth the secrets of the Summoner class, and free his newfound family from their fate.\n\n(Source: HIDIVE)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13144,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/tCGlTTGmNvdRmKL5iYAGZY52IrTK5eH7KJBckecS.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/tCGlTTGmNvdRmKL5iYAGZY52IrTK5eH7KJBckecS.avif"
+        },
+        {
+          "id": 13145,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/Y6gGxLE4SeKt3OMxKTvzotwF29rvD7P7y8SVMfJB.jpg",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/Y6gGxLE4SeKt3OMxKTvzotwF29rvD7P7y8SVMfJB.jpg"
+        }
+      ]
+    },
+    "song": {
+      "id": 14097,
+      "title": "Haku",
+      "artists": [
+        {
+          "id": 1511,
+          "name": "Atarayo",
+          "slug": "atarayo",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16596,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19394,
+            "basename": "HellMode-OP1.webm",
+            "filename": "HellMode-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/HellMode-OP1.webm",
+            "resolution": 720,
+            "size": 45014379,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/HellMode-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14185,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4758,
+      "name": "DARK MOON: Kuro no Tsuki - Tsuki no Saidan",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "dark_moon_kuro_no_tsuki_tsuki_no_saidan",
+      "synopsis": "In the seaside city of Riverfield stands Decelis Academy, home to seven mysterious boys sharing the same secret: They\u2019re vampires, hiding their murky pasts. When Sooha, a female student who hates vampires, transfers to the academy, the boys find themselves irresistibly drawn to her. As strange events shake the city, old sins and buried secrets resurface, and their world begins to fracture.\n\n(Source: Crunchyroll)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13146,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/Ex1ssi4vMuYlLkSqqse634VY2G2OhuWs6CGxGMPo.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/Ex1ssi4vMuYlLkSqqse634VY2G2OhuWs6CGxGMPo.avif"
+        },
+        {
+          "id": 13147,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/U6RJ1Ig9bLf2MxYm0J4b66tXDONbattyuI6HKLSd.jpg",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/U6RJ1Ig9bLf2MxYm0J4b66tXDONbattyuI6HKLSd.jpg"
+        }
+      ]
+    },
+    "song": {
+      "id": 14098,
+      "title": "One In A Billion (Japanese Ver.)",
+      "artists": [
+        {
+          "id": 373,
+          "name": "ENHYPEN",
+          "slug": "enhypen",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16597,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19381,
+            "basename": "DarkMoonKuroNoTsuki-OP1.webm",
+            "filename": "DarkMoonKuroNoTsuki-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/DarkMoonKuroNoTsuki-OP1.webm",
+            "resolution": 720,
+            "size": 28474531,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/DarkMoonKuroNoTsuki-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14187,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4759,
+      "name": "Tensei Shitara Dragon no Tamago Datta",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "tensei_shitara_dragon_no_tamago_datta",
+      "synopsis": "Our hero needs to come out of his shell... literally! Reborn in another world inside a dragon egg, he doesn\u2019t have the amazing magic or mighty physical strength of your typical isekai\u2019d adventurer just yet. He\u2019ll need to break free and grow from a weak hatchling and into a fearsome beast if he wants to escape the deep, dark forest unscathed. What battles and adventures await him in this unique take on the isekai phenomenon?\n\n(Source: HIDIVE)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13148,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/NSmvckwaTZXe6gYpQJ6NbMYsaT2EkvUjQCYa1dDT.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/NSmvckwaTZXe6gYpQJ6NbMYsaT2EkvUjQCYa1dDT.avif"
+        },
+        {
+          "id": 13149,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/typ21soeXb8vcaJs4uWruG1BhxtvWBeEbiEJKfjI.jpg",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/typ21soeXb8vcaJs4uWruG1BhxtvWBeEbiEJKfjI.jpg"
+        }
+      ]
+    },
+    "song": {
+      "id": 14100,
+      "title": "Gliding Claw",
+      "artists": [
+        {
+          "id": 1166,
+          "name": "Sizuk",
+          "slug": "sizuk",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        },
+        {
+          "id": 1167,
+          "name": "AYAME",
+          "slug": "ayame",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16599,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19365,
+            "basename": "DoraTama-OP1.webm",
+            "filename": "DoraTama-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/DoraTama-OP1.webm",
+            "resolution": 720,
+            "size": 45257103,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/DoraTama-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14189,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4760,
+      "name": "Dead Account",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "dead_account",
+      "synopsis": "Always ready for a fight! Destruction for destruction\u2019s sake! The online streamer Aoringo is a troll, making the worst of the worst of boundary-pushing flamebait content and raking in the revenue from the hate-watchers. You may think he\u2019s nothing more than a bottom feeder and a drain on society, but in reality, he\u2019s high school dropout Souji Enishiro, a caring older brother with a sweet tooth who loves nothing more than his little sister. His viral videos? Just a way to pay his sister\u2019s medical bills. And even if all of humanity hates him, he doesn\u2019t care, so long as his little sister gets better. But then, something very strange begins to happen...\n\n(Source: Crunchyroll)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13150,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/3rC3AQIfe9Qp3dUYwroHS8PVzkun8TcNRievsuq1.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/3rC3AQIfe9Qp3dUYwroHS8PVzkun8TcNRievsuq1.avif"
+        },
+        {
+          "id": 13151,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/o4fAl4kzFOt4g6gmdygfADdJUKuPtBePTNWoyHOW.jpg",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/o4fAl4kzFOt4g6gmdygfADdJUKuPtBePTNWoyHOW.jpg"
+        }
+      ]
+    },
+    "song": {
+      "id": 14102,
+      "title": "Dead End",
+      "artists": [
+        {
+          "id": 2227,
+          "name": "Haru Igarashi",
+          "slug": "haru_igarashi",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16601,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19384,
+            "basename": "DeadAccount-OP1.webm",
+            "filename": "DeadAccount-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/DeadAccount-OP1.webm",
+            "resolution": 720,
+            "size": 44336220,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/DeadAccount-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14191,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4761,
+      "name": "Jingai Kyoushitsu no Ningengirai Kyoushi",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "jingai_kyoushitsu_no_ningengirai_kyoushi",
+      "synopsis": "After a traumatic incident ends his teaching career, Rei Hitoma is certain he hates humans. Yet when he sees a job for \u201ca teacher who truly cares for their students,\u201d he\u2019s compelled to apply. Before he knows it, he\u2019s hired\u2014only to find out his students are demi-humans. What begins as a job becomes a journey for healing for both a teacher who\u2019s lost faith in humanity and students who dream of it.\n\n(Source: Crunchyroll)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13152,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/hvk6zvjFuAqAcNj0JCtB1Vvncl5zxLPhH0nqxywz.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/hvk6zvjFuAqAcNj0JCtB1Vvncl5zxLPhH0nqxywz.avif"
+        },
+        {
+          "id": 13153,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/vfu3vDGIxK1JQ7D1GTtC8g3XojNvNwaskmOKbnsj.jpg",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/vfu3vDGIxK1JQ7D1GTtC8g3XojNvNwaskmOKbnsj.jpg"
+        }
+      ]
+    },
+    "song": {
+      "id": 14104,
+      "title": "Ningen",
+      "artists": [
+        {
+          "id": 147,
+          "name": "Masayoshi Ooishi",
+          "slug": "masayoshi_ooishi",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16603,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19363,
+            "basename": "JingaiKyoushitsu-OP1.webm",
+            "filename": "JingaiKyoushitsu-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/JingaiKyoushitsu-OP1.webm",
+            "resolution": 720,
+            "size": 41503473,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/JingaiKyoushitsu-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14193,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4762,
+      "name": "Yuusha no Kuzu",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "yuusha_no_kuzu",
+      "synopsis": "In the mid-21st century, Tokyo's mafia can turn into ether-enhanced Demon Lords, and Braves hunt them down. Yashiro, the Grim Reaper, reluctantly takes a new apprentice named Aki Jogamine, a high school girl training to become a Brave. He soon finds himself dragged into one troublesome case after another. The supernatural story of a scumbag master and his self-proclaimed apprentice begins!\n\n(Source: Crunchyroll)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13154,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/U4EyaBg2lCDPP6mgrM8KDhZnCeD6W13Vlu274Cz3.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/U4EyaBg2lCDPP6mgrM8KDhZnCeD6W13Vlu274Cz3.avif"
+        },
+        {
+          "id": 13155,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/MDE6kgT5ULwwkzvmtmKt7XtBEwCHnbNy1ZuGPQVf.jpg",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/MDE6kgT5ULwwkzvmtmKt7XtBEwCHnbNy1ZuGPQVf.jpg"
+        }
+      ]
+    },
+    "song": {
+      "id": 14106,
+      "title": "GUN POWDER",
+      "artists": [
+        {
+          "id": 1013,
+          "name": "TOOBOE",
+          "slug": "tooboe",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16605,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19377,
+            "basename": "YuushaNoKuzu-OP1.webm",
+            "filename": "YuushaNoKuzu-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/YuushaNoKuzu-OP1.webm",
+            "resolution": 720,
+            "size": 46044302,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/YuushaNoKuzu-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14195,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4763,
+      "name": "Uruwashi no Yoi no Tsuki",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "uruwashi_no_yoi_no_tsuki",
+      "synopsis": "Yoi Takiguchi has long legs, a deep voice, and a handsome face\u2026in other words, Yoi is such a good-looking guy that most people don\u2019t notice or care that she is, in fact, a girl. Indeed, she\u2019s had the nickname \u201cPrince\u201d for as long as she can remember. That is, until she met Ichimura-senpai\u2026the only person who really seemed to see her for herself. To her surprise, she\u2019s not sure how to handle this new relationship, especially when her newfound friend is a prince himself (and a guy prince, at that). The story of the two high school princes starts here!\n\n(Source: Crunchyroll)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13156,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/CrzGAjxk36tpCD96VGia4WsFGELohY7aJbTazTR7.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/CrzGAjxk36tpCD96VGia4WsFGELohY7aJbTazTR7.avif"
+        },
+        {
+          "id": 13157,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/W3IpuFc6mXPzfDQT2coKkn4O2ScMXnEgOlEzZ6xR.jpg",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/W3IpuFc6mXPzfDQT2coKkn4O2ScMXnEgOlEzZ6xR.jpg"
+        }
+      ]
+    },
+    "song": {
+      "id": 14108,
+      "title": "Uruwashi",
+      "artists": [
+        {
+          "id": 249,
+          "name": "UNISON SQUARE GARDEN",
+          "slug": "unison_square_garden",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16607,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19379,
+            "basename": "UruwashiNoYoiNoTsuki-OP1.webm",
+            "filename": "UruwashiNoYoiNoTsuki-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "Transition",
+            "path": "2026/Winter/UruwashiNoYoiNoTsuki-OP1.webm",
+            "resolution": 720,
+            "size": 18036299,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/UruwashiNoYoiNoTsuki-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14197,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4764,
+      "name": "Seihantai na Kimi to Boku",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "seihantai_na_kimi_to_boku",
+      "synopsis": "Suzuki\u2019s a high school girl in love, but the guy she\u2019s fallen for is nothing like her! While she\u2019s cheerful, outgoing, and always trying to fit in, her classmate Yusuke Tani is stoic, quiet, and doesn\u2019t seem to care what people think of him. Will Suzuki be able to overcome her anxieties and ask him out, or will she discover that opposites really don\u2019t attract?\n\n(Source: Crunchyroll)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13158,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/BAY7wJgBDVIyAgbRi2NmXaDCx9zaVQOqfYjPMgEB.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/BAY7wJgBDVIyAgbRi2NmXaDCx9zaVQOqfYjPMgEB.avif"
+        },
+        {
+          "id": 13159,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/u0UrCA5vxC6wvn4XIKJdosznrbL3Oy2Fb41Oz7v0.jpg",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/u0UrCA5vxC6wvn4XIKJdosznrbL3Oy2Fb41Oz7v0.jpg"
+        }
+      ]
+    },
+    "song": {
+      "id": 14110,
+      "title": "Megane wo Hazushite",
+      "artists": [
+        {
+          "id": 2228,
+          "name": "Noa",
+          "slug": "noa_aburasoba",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16609,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19333,
+            "basename": "SeihantaiNaKimiToBoku-OP1.webm",
+            "filename": "SeihantaiNaKimiToBoku-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/SeihantaiNaKimiToBoku-OP1.webm",
+            "resolution": 720,
+            "size": 45794878,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/SeihantaiNaKimiToBoku-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14199,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4765,
+      "name": "Kaya-chan wa Kowakunai",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "kayachan_wa_kowakunai",
+      "synopsis": "Kaya-chan attends Hanamugi Kindergarten, and she has an incredibly strong sixth sense. She secretly beats up the ghosts that stalk her friends and family, but in turn, she\u2019s treated like a troublemaker since nobody understands her strange behavior. Everything changes when her teacher, Chie, discovers her secret. Kaya-chan's fists will go flying at any sinister spirits that show up!\n\n(Source: Crunchyroll)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13160,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/4bViH8SEVmhGQeELjJavO6l6qJDyRCsBWkz3kea4.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/4bViH8SEVmhGQeELjJavO6l6qJDyRCsBWkz3kea4.avif"
+        },
+        {
+          "id": 13161,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/tE5Qr9ty2sRWHNKPET47jvSjhlXljltaBmcNFn7K.jpg",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/tE5Qr9ty2sRWHNKPET47jvSjhlXljltaBmcNFn7K.jpg"
+        }
+      ]
+    },
+    "song": {
+      "id": 14112,
+      "title": "Maboroshi no Yukue",
+      "artists": [
+        {
+          "id": 980,
+          "name": "Isekaijoucho",
+          "slug": "isekaijoucho",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16611,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19392,
+            "basename": "KayaChanWaKowakunai-OP1.webm",
+            "filename": "KayaChanWaKowakunai-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/KayaChanWaKowakunai-OP1.webm",
+            "resolution": 720,
+            "size": 34289449,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/KayaChanWaKowakunai-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14203,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4767,
+      "name": "Akuyaku Reijou wa Ringoku no Outaishi ni Dekiai Sareru",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "akuyaku_reijou_wa_ringoku_no_outaishi_ni_dekiai_sareru",
+      "synopsis": "On the day before her downfall, Lady Tiararose Lapis Clementille recalls that she is in an otome game that she had once played in her former life. She used to adore the main love interest Prince Hartknights Lapis-Lazuli Lactomuth, but unfortunately, she was not reincarnated as the heroine, but rather as is his worst enemy\u2014the villainess fianc\u00e9e.\n\nAt their graduation ceremony, without blinking an eye, Hartknights condemns Tiararose for alleged crimes, breaks off his engagement, and proclaims the heroine Akari as his new bride-to-be. No matter whether Tiararose is innocent, he banishes her from the kingdom. But before her sentence can be carried out, a shocking figure appears. Aquasteed Marineforest, the prince of a powerful neighboring country, has been harboring feelings for Tiararose for quite some time, and announces his intention to marry her!\n\nAdored by the prince of another kingdom, what awaits the villainess on her path to a happy ending?\n\n(Source: MAL Rewrite)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13164,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/SPD3VBZBRqST8QnpfRnvS422KpHG8UPmPyMdOEil.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/SPD3VBZBRqST8QnpfRnvS422KpHG8UPmPyMdOEil.avif"
+        },
+        {
+          "id": 13165,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/mpS1KZykPp44Njz4oMkFSgceNWMpP4rjArur4flc.jpg",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/mpS1KZykPp44Njz4oMkFSgceNWMpP4rjArur4flc.jpg"
+        }
+      ]
+    },
+    "song": {
+      "id": 14116,
+      "title": "Ai no Fanfare",
+      "artists": [
+        {
+          "id": 30,
+          "name": "Ayahi Takagaki",
+          "slug": "ayahi_takagaki",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        },
+        {
+          "id": 2232,
+          "name": "Yu Shirota",
+          "slug": "yu_shirota",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16615,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19335,
+            "basename": "Akudeki-OP1.webm",
+            "filename": "Akudeki-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/Akudeki-OP1.webm",
+            "resolution": 720,
+            "size": 37462766,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/Akudeki-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14205,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4768,
+      "name": "Jigokuraku 2nd Season",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "jigokuraku_2nd_season",
+      "synopsis": "The second season of *Jigokuraku*.",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13166,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/GkATcbqm0izMITRySz2FvlbuhyVuNViEi888ef7f.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/GkATcbqm0izMITRySz2FvlbuhyVuNViEi888ef7f.avif"
+        },
+        {
+          "id": 13167,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/eeStC7k6dpj6t9pgp1Il6Z4wgrsufZyDxzA97fXO.jpg",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/eeStC7k6dpj6t9pgp1Il6Z4wgrsufZyDxzA97fXO.jpg"
+        }
+      ]
+    },
+    "song": {
+      "id": 14118,
+      "title": "Kasukana Hana",
+      "artists": [
+        {
+          "id": 426,
+          "name": "Tatsuya Kitani",
+          "slug": "tatsuya_kitani",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        },
+        {
+          "id": 2158,
+          "name": "BABYMETAL",
+          "slug": "babymetal",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16617,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19337,
+            "basename": "JigokurakuS2-OP1.webm",
+            "filename": "JigokurakuS2-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/JigokurakuS2-OP1.webm",
+            "resolution": 720,
+            "size": 47039411,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/JigokurakuS2-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14209,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4769,
+      "name": "Hime-sama, \"Goumon\" no Jikan desu 2nd Season",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "himesama_goumon_no_jikan_desu_2nd_season",
+      "synopsis": "As the war between the Imperial Army and Hellhorde rages on, the Princess, despite being armed with her mythical sword Excalibur, is captured and imprisoned. What kind of torture does she face at the hands of the chief demon interrogator? Fluffy fresh-baked toast! Hot, steaming ramen! Oh, the humanity! Can the Princess withstand these tormenting treats and keep her kingdom\u2019s secrets safe?\n\n(Source: Crunchyroll)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13168,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/MTKOtllKVwIUJiCBzyUVt0p29LCnGt2QdQTd1B5f.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/MTKOtllKVwIUJiCBzyUVt0p29LCnGt2QdQTd1B5f.avif"
+        },
+        {
+          "id": 13169,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/ElelJEyTWz9xMmV9woZCQYnMWHi4qnUnYNHNTZiD.png",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/ElelJEyTWz9xMmV9woZCQYnMWHi4qnUnYNHNTZiD.png"
+        }
+      ]
+    },
+    "song": {
+      "id": 14122,
+      "title": "Sunday Morning",
+      "artists": [
+        {
+          "id": 2234,
+          "name": "ILLIT",
+          "slug": "illit",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16621,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19346,
+            "basename": "HimesamaGoumonS2-OP1.webm",
+            "filename": "HimesamaGoumonS2-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/HimesamaGoumonS2-OP1.webm",
+            "resolution": 720,
+            "size": 47530049,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/HimesamaGoumonS2-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14212,
+    "sequence": 1,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4770,
+      "name": "[Oshi no Ko] 3rd Season",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "oshi_no_ko_3rd_season",
+      "synopsis": "The third season of *[Oshi no Ko]*.\n\nThe story enters a new stage.\n\nIt's been six months since \"POP IN 2\" was released. Thanks to MEM-Cho's hard work, B-Komachi is about to get their major break. Aqua is a multi-talented entertainer, and Akane's career as a talented actress is going smoothly. Meanwhile, Kana lost the cheerfulness she once had. To track down the truth behind Ai and Goro's deaths, Ruby keeps rising in the entertainment world...\n\nUsing lies as a weapon.\n\n(Source: Crunchyroll)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13170,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/LA22BSmPS9UlwhUb00HziVc9p0NhaVmQGYQ1I7iS.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/LA22BSmPS9UlwhUb00HziVc9p0NhaVmQGYQ1I7iS.avif"
+        },
+        {
+          "id": 13171,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/wZOyzv7DgxWCB0Urne8Dv3OrZWZXl9R6ld67sEmO.jpg",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/wZOyzv7DgxWCB0Urne8Dv3OrZWZXl9R6ld67sEmO.jpg"
+        }
+      ]
+    },
+    "song": {
+      "id": 14125,
+      "title": "B no Revenge",
+      "artists": [
+        {
+          "id": 2235,
+          "name": "B-Komachi",
+          "slug": "bkomachi",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16624,
+        "episodes": "1",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19348,
+            "basename": "OshiNoKoS3-OP1.webm",
+            "filename": "OshiNoKoS3-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "Over",
+            "path": "2026/Winter/OshiNoKoS3-OP1.webm",
+            "resolution": 720,
+            "size": 44682633,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/OshiNoKoS3-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14213,
+    "sequence": 2,
+    "slug": "OP2",
+    "type": "OP",
+    "anime": {
+      "id": 4770,
+      "name": "[Oshi no Ko] 3rd Season",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "oshi_no_ko_3rd_season",
+      "synopsis": "The third season of *[Oshi no Ko]*.\n\nThe story enters a new stage.\n\nIt's been six months since \"POP IN 2\" was released. Thanks to MEM-Cho's hard work, B-Komachi is about to get their major break. Aqua is a multi-talented entertainer, and Akane's career as a talented actress is going smoothly. Meanwhile, Kana lost the cheerfulness she once had. To track down the truth behind Ai and Goro's deaths, Ruby keeps rising in the entertainment world...\n\nUsing lies as a weapon.\n\n(Source: Crunchyroll)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13170,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/LA22BSmPS9UlwhUb00HziVc9p0NhaVmQGYQ1I7iS.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/LA22BSmPS9UlwhUb00HziVc9p0NhaVmQGYQ1I7iS.avif"
+        },
+        {
+          "id": 13171,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/wZOyzv7DgxWCB0Urne8Dv3OrZWZXl9R6ld67sEmO.jpg",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/wZOyzv7DgxWCB0Urne8Dv3OrZWZXl9R6ld67sEmO.jpg"
+        }
+      ]
+    },
+    "song": {
+      "id": 14126,
+      "title": "TEST ME",
+      "artists": [
+        {
+          "id": 2079,
+          "name": "CHANMINA",
+          "slug": "chanmina",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16625,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19386,
+            "basename": "OshiNoKoS3-OP2.webm",
+            "filename": "OshiNoKoS3-OP2",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/OshiNoKoS3-OP2.webm",
+            "resolution": 720,
+            "size": 50095554,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/OshiNoKoS3-OP2.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14215,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4771,
+      "name": "Sousou no Frieren 2nd Season",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "sousou_no_frieren_2nd_season",
+      "synopsis": "The second season of *Sousou no Frieren*.",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13172,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/k40V0W3sKuIWYGorPMIoW4MwWNGTZJrUWCC47mm0.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/k40V0W3sKuIWYGorPMIoW4MwWNGTZJrUWCC47mm0.avif"
+        },
+        {
+          "id": 13173,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/vDOYFI3qLvk7gI9JabngReNEdFN2CTTdUTVe487B.jpg",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/vDOYFI3qLvk7gI9JabngReNEdFN2CTTdUTVe487B.jpg"
+        }
+      ]
+    },
+    "song": {
+      "id": 14128,
+      "title": "lulu.",
+      "artists": [
+        {
+          "id": 1591,
+          "name": "Mrs. GREEN APPLE",
+          "slug": "mrs_green_apple",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16627,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19351,
+            "basename": "SousouNoFrierenS2-OP1.webm",
+            "filename": "SousouNoFrierenS2-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/SousouNoFrierenS2-OP1.webm",
+            "resolution": 720,
+            "size": 34410475,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/SousouNoFrierenS2-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14225,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4751,
+      "name": "Toumei Otoko to Ningen Onna: Sonouchi Fuufu ni Naru Futari",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "toumei_otoko_to_ningen_onna_sonouchi_fuufu_ni_naru_futari",
+      "synopsis": "Akira Tounome is an invisible gentleman who runs a detective agency, and Shizuka Yakou is a mild-mannered human female who works there. Shizuka can always find Akira even when he turns completely invisible. A quiet love begins to blossom between them as the invisible man and blind girl grow closer to each other\u2026\n\n(Source: Crunchyroll)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13115,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/of38Jpgck0dBmyD04hbVDroc1pJCA0HDymH2G1qt.jpg",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/of38Jpgck0dBmyD04hbVDroc1pJCA0HDymH2G1qt.jpg"
+        },
+        {
+          "id": 13134,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/i4eAGgkND4AcAavnreuCMOOTiUWh8Jqnb4RVya1X.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/i4eAGgkND4AcAavnreuCMOOTiUWh8Jqnb4RVya1X.avif"
+        }
+      ]
+    },
+    "song": {
+      "id": 14138,
+      "title": "Ding-dong",
+      "artists": [
+        {
+          "id": 1140,
+          "name": "Mao Abe",
+          "slug": "mao_abe",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16637,
+        "episodes": "2-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19359,
+            "basename": "ToumeiOtokoToNingenOnna-OP1.webm",
+            "filename": "ToumeiOtokoToNingenOnna-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/ToumeiOtokoToNingenOnna-OP1.webm",
+            "resolution": 720,
+            "size": 45363683,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/ToumeiOtokoToNingenOnna-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14228,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4774,
+      "name": "Yuusha Kei ni Shosu: Choubatsu Yuusha 9004-tai Keimu Kiroku",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "yuusha_kei_ni_shosu_choubatsu_yuusha_9004tai_keimu_kiroku",
+      "synopsis": "In a world where heroism is a punishment, Xylo Forbartz, a condemned goddess killer, battles endless hordes of monstrous abominations as part of Penal Hero Unit 9004. Death is no escape, only a cycle of resurrection and relentless combat. But when Xylo encounters a mysterious new goddess, their unlikely alliance sparks a rebellion that could shatter the chains of eternal punishment.\n\n(Source: Crunchyroll)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13178,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/jIrDYvPjN4bba6pvPIJT9utRBHF4mhvIbvn1ncmC.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/jIrDYvPjN4bba6pvPIJT9utRBHF4mhvIbvn1ncmC.avif"
+        },
+        {
+          "id": 13179,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/e5GK9FIWb1dV8y2bnNdPI30fIDQYkUMLaTBGDStO.jpg",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/e5GK9FIWb1dV8y2bnNdPI30fIDQYkUMLaTBGDStO.jpg"
+        }
+      ]
+    },
+    "song": {
+      "id": 14141,
+      "title": "Kill the Noise",
+      "artists": [
+        {
+          "id": 227,
+          "name": "SPYAIR",
+          "slug": "spyair",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16641,
+        "episodes": "2-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19388,
+            "basename": "YuushakeiNiShosu-OP1.webm",
+            "filename": "YuushakeiNiShosu-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/YuushakeiNiShosu-OP1.webm",
+            "resolution": 720,
+            "size": 43960157,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/YuushakeiNiShosu-OP1.webm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14234,
+    "sequence": null,
+    "slug": "OP1",
+    "type": "OP",
+    "anime": {
+      "id": 4776,
+      "name": "Meitantei Precure!",
+      "media_format": "TV",
+      "season": "Winter",
+      "slug": "meitantei_precure",
+      "synopsis": "The 23rd installment of the long-running Precure series.\n\nAnna Akechi is a second-year junior high student living in Makoto Mirai Town. On her 14th birthday, she has a chance encounter with a fairy named Pochitan, and a magical pendant caused her to travel back in time from 2027 to 1999! In the Makoto Mirai Town 28 years in the past, Anna meets Mikuru Kobayashi, a girl her age who wants to become a great detective.\n\nMeanwhile, people in town are in trouble as their prized possessions are being stolen from under their noses - the cause being a group of Phantom Thieves. To stop them, Anna and Mikuru turn into Pretty Cures! Maybe if they solve these mysteries, Anna can find her way back to her own time?\n\n(Source: AniList)",
+      "year": 2026,
+      "images": [
+        {
+          "id": 13182,
+          "facet": "Small Cover",
+          "path": "anime/small-cover/zik3AEngA2d1f0MEGv2SL9FxIVwiBk1MFvBN1ju7.avif",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/small-cover/zik3AEngA2d1f0MEGv2SL9FxIVwiBk1MFvBN1ju7.avif"
+        },
+        {
+          "id": 13183,
+          "facet": "Large Cover",
+          "path": "anime/large-cover/ikeZIlK5gaVdvHOEeVs4NqysKNAcDVDoZ9BOBwjV.jpg",
+          "link": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/anime/large-cover/ikeZIlK5gaVdvHOEeVs4NqysKNAcDVDoZ9BOBwjV.jpg"
+        }
+      ]
+    },
+    "song": {
+      "id": 14147,
+      "title": "Heart ni Hint! Meitantei Precure!",
+      "artists": [
+        {
+          "id": 1241,
+          "name": "Ami Ishii",
+          "slug": "ami_ishii",
+          "information": null,
+          "artistsong": {
+            "alias": null,
+            "as": null
+          }
+        }
+      ]
+    },
+    "animethemeentries": [
+      {
+        "id": 16647,
+        "episodes": "1-",
+        "notes": null,
+        "nsfw": false,
+        "spoiler": false,
+        "version": null,
+        "videos": [
+          {
+            "id": 19396,
+            "basename": "MeitanteiPrecure-OP1.webm",
+            "filename": "MeitanteiPrecure-OP1",
+            "lyrics": false,
+            "nc": false,
+            "overlap": "None",
+            "path": "2026/Winter/MeitanteiPrecure-OP1.webm",
+            "resolution": 720,
+            "size": 48937934,
+            "source": "WEB",
+            "subbed": false,
+            "uncen": false,
+            "tags": "",
+            "link": "https://v.animethemes.moe/MeitanteiPrecure-OP1.webm"
+          }
+        ]
+      }
+    ]
+  }
+]

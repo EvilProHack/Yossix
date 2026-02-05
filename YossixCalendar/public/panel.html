@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yossix Calendar Panel</title>
+    <style>
+        body { 
+            margin: 0; 
+            padding: 0; 
+            background-color: transparent; /* Transparente para integrarse mejor */
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+        }
+        #calendar-img { 
+            width: 100%; 
+            height: auto; 
+            display: block;
+            border-radius: 8px; /* Borde redondeado estilo moderno */
+        }
+    </style>
+</head>
+<body>
+    <img id="calendar-img" src="Current.png" alt="Calendario Yossix">
+
+    <script>
+        function updateImage() {
+            const img = document.getElementById('calendar-img');
+            const newImg = new Image();
+            // Añadimos timestamp para evitar caché
+            const src = img.src.split('?')[0] + '?t=' + new Date().getTime();
+            
+            newImg.onload = function() {
+                img.src = src;
+                console.log("Calendario actualizado: " + new Date().toLocaleTimeString());
+            };
+            
+            newImg.onerror = function() {
+                console.log("Error al cargar la nueva imagen, reintentando luego...");
+            };
+
+            newImg.src = src;
+        }
+
+        // Actualizar cada 60 segundos (1 minuto) en lugar de 5 para ser más ágil
+        setInterval(updateImage, 60 * 1000);
+    </script>
+</body>
+</html>

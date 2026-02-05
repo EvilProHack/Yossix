@@ -1,0 +1,22 @@
+COMO SUBIR TU EXTENSIÓN A TWITCH
+
+1. Ve a https://dev.twitch.tv/console/extensions y crea una nueva extensión.
+2. Ponle nombre "Yossix Calendar" y tipo "Panel".
+3. En la sección "Version Details" -> "Asset Hosting", elige "Twitch Hosted".
+4. COMPRIME (ZIP) el contenido de la carpeta "TwitchExtension" (selecciona panel.html y viewer.js -> click derecho -> enviar a carpeta comprimida).
+5. Sube ese .zip en la consola de Twitch ("Files" -> "Upload").
+6. Configura el "Extension Entry File" como: panel.html
+
+IMPORTANTE - LISTA BLANCA DE IMÁGENES:
+Para que la imagen cargue desde Firebase, tienes que dar permiso en Twitch:
+1. Ve a la pestaña "Capabilities".
+2. Busca la sección "Image Sources" o "Content Security Policy (CSP)".
+3. Añade este dominio a la lista permitida:
+   https://yossix-calendar.web.app
+
+ASÍ FUNCIONA LA MAGIA:
+Tu extensión de Twitch es solo una "ventana". La imagen real vive en Firebase.
+1. Cuando quieras cambiar el calendario, reemplaza "Current.png" en la carpeta "public" de tu PC.
+2. Dale al "deploy.bat".
+3. ¡Listo! La extensión de Twitch mostrará el nuevo calendario automáticamente (puede tardar unos minutos o requerir refrescar el stream).
+   NO necesitas resubir nada a Twitch nunca más, solo darle al deploy.bat.

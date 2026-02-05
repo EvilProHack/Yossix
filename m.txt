@@ -1,0 +1,9 @@
+sakamoto o muslos
+
+si no se dice un anime. pero va dirigido para ruleta.
+Que se ponga en aun no decidido.
+aun no decidido es un contador entre parentesis al lado
+Por ejemplo
+Objetivo Ruleta: 24/30  (8)
+significa que hay 24 en estado pendiente o añadido delobjetivo de 30.
+y los 8 son los pendientes osea que no se han decidido.

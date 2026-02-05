@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "yossix-anime-list"
+  },
+  "targets": {
+    "yossix-anime-list": {
+      "hosting": {
+        "dev": [
+          "yossix-anime-listdev"
+        ],
+        "prod": [
+          "yossix-anime-list"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

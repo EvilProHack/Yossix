@@ -1,0 +1,9 @@
+import { Routes } from '@angular/router';
+import { HomeComponent } from './app/home/home.component';
+import { WatchComponent } from './app/watch/watch.component';
+
+export const routes: Routes = [
+  { path: '', component: HomeComponent },
+  { path: 'watch/:id', component: WatchComponent },
+  { path: '**', redirectTo: '' }
+];

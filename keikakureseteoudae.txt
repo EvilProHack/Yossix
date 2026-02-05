@@ -1,0 +1,173 @@
+NO asumas cosas si no tienes algo claro pregunta: 
+
+
+Bien quiero hacer cambioes en el mudae del servidor. Estas son las reglas actuales que estableci en septiembre 2024 unos meses despeus de que yo comenzara a jugar.
+Actualmente tenemos el canal waifus y husbandos que es donde la gente tira. Y el canal para negociaciones donde s ehacen los tradeos y demas . estas son las reglas actuales:
+"Reglas Mudae
+
+Reclamación de Personajes: Si estás inactivo por 30 días sin reclamar,  lo perderás todo  a menos que pagues el precio acordado para conservar algunos, precio que depende del caso. Igualmente en este caso el jugador se convierte en un  jugador retirado.
+Multicuentas Permitidas: Se permite un máximo de 3 multicuentas, con la condición de que solo entre una cuenta nueva al día.
+Menciones en Wishdm: Las menciones públicas en Wishdm deben estar activadas.  El segundo argumento del comando $wishdm debe estar en n $wishdm n n n  Los otros dos argumentos como quiera el jugador.
+Entrega de Deseos Recolectados: Los deseos  no compartidos  recolectados deben darse sin coste al jugador que lo deseó. No hay límite de tiempo mientras la persona que debe recibir el deseo no se acuerde. Pero en caso de que se acuerde y lo pida se le tiene que dar.
+Reclamación de Personajes en Lista de Deseos: No podrás reclamar personajes del roll de otro jugador si dicho personaje está en la lista de deseos del otro jugador y no en la tuya.  Si son tus rolls esto no aplica.
+Deseos de Personajes Únicos: No se permite desear deseos únicos si ya han salido y no fueron reclamados. Esto es para evitar una situación donde una persona A deja pasar un deseo de persona B a propósito para poder desearlo después y llevárselo con malas intenciones
+No está permitido el uso del premium: La única excepción es la detallada con nova por el mes que lo tiene. No se prohíbe tenerlo pero sí tenerlo activado en este servidor obviamente.
+
+Cualquier infracción de estas reglas implicará una sanción de tipo "muerte" o "thanos," afectando al acusado y a cualquier cómplice involucrado.
+
+
+ 
+Definición de conceptos:
+
+Jugador:
+
+Persona física que juega al mudae. Un jugador puede tener hasta 3 cuentas, pero sigue siendo un único Jugador. Un jugador puede ser un Jugador Activo o un Jugador Retirado
+
+Jugador Activo:
+
+Un jugador activo es aquel que participa regularmente en el servidor, cumpliendo con las normas establecidas, y que realiza tiradas de personajes ($wa, $ha, etc.) y reclama al menos una vez cada 30 días.
+Un jugador activo también debe mantenerse en conformidad con las condiciones del servidor, como participar en los intercambios y reclamaciones permitidos, cumplir con las reglas sobre multicuentas, y no intentar esquivar restricciones de transferencias.
+Para mantener el estatus de activo, el jugador no debe estar sancionado y debe por ello respetar todas las reglas de uso de personajes, menciones y deseos, además de jugar habitualmente.
+Por sanciones se puede forzar el estado Jugador Retirado a un Jugador Activo
+
+Jugador Retirado:
+
+Un jugador activo que dice que se retira, pues entraría a ser un jugador retirado, al menos desde la redacción de este documento. 
+Un jugador se considera retirado si decide abandonar voluntariamente el servidor o cesa su participación regular durante más de 30 días, sin justificar su ausencia, con o sin sanción.
+Los jugadores retirados pierden el derecho a sus personajes y recursos acumulados, salvo en los casos donde hayan pagado el precio estipulado para conservar ciertos personajes o sean personajes con el estatus de alma gemela $sl. Estos se conservan sin coste
+Cualquier jugador que rechace las condiciones de restauración tras una sanción  se considera un jugador retirado, y su restauración será revocada.
+Un jugador retirado no podrá beneficiarse de transferencias o intercambios, ni podrá reactivar personajes reclamados o kakera acumulado sin cumplir con las condiciones de restauración establecidas.
+
+Las reglas pueden ser modificadas a necesidad, pero se asegurará de que todos estén enterados de estos cambios
+"
+Mi objetivo 1 es retirarme dle mudae sin perder demasiado progreso. Por eso puse las regla de las almas gemelas. Tengo 1027 almas gemelas . Personajes que mantendré si o si. aunque deje de ser jugador. Aunque tambien planeo llevarme personajes de bajo valor al retirarme que no sean soulmates.
+Durante el mantenimiento  compraré y activare el premium para mudar todo lo que tengo a mi servidor.  Mi segundo objetivo es revivir el mudae con un evento despues del mantenimiento. Un evneto donde añado varios personajes que sean formas alternas de yossix. Y dar recompensas para cada uno. Pero para que gente nueva entre hay que divorciar muchos personajes por lo que la idea serai hacer un soft reboot con los jugadores que queden. Un softreboot serian 2 thanos en este caso porque si miramos las listas:
+🏆 El servidor de YossixWorld - Suma de los primeros 15 personajes clasificados
+​
+Órdenes: $ts, $tsl, $tsv, $tsk, $tsy, $tsyb, $tsyt, $tsz
+Opciones: $ts nbr, $ts lastclaim, $tsw, $tsh, $tsid, <usuario>/<página>
+
+
+nov4cron0 - 247
+evilhack - 437
+lolimanser - 962
+thegidrax - 1.286
+alexrex17a - 6.810
+cesarislh - 8.476
+gekkota98 - 10.088
+eldonas265 - 13.600
+accelerator3792 - 14.624
+izuru21 - 31.442
+_christianmunoz - 80.417
+gamercodehl - 215.961
+
+🏆 El servidor de YossixWorld - Nbr Chara
+​
+Total de personajes reclamados: 15.419
+
+
+lolimanser - 5.045
+evilhack - 4.864
+nov4cron0 - 2.446
+thegidrax - 1.421
+_christianmunoz - 337
+cesarislh - 327
+izuru21 - 217
+gekkota98 - 216
+alexrex17a - 199
+eldonas265 - 189
+accelerator3792 - 78
+gamercodehl - 21
+zero1456 - 14
+josebelmarvidal - 13
+fbi989_26705 - 10
+GIF - decfbebeeeee.webp
+Page 1 / 2
+
+
+Podemovs ver varias cosas. La gente ya se esta oliendo que habrá un thanos en algun momento entonces personas como lolimanser estan reclamando todo lo que ven para que un thanos les afecte menos por eso hare un soft reboot que seran 2 thanos en vez de uno para que solo se quede con 1261 personajes aprox que sigue siendo bastante pero no la barbaridad que tiene ahora. 
+
+A los jugadores les dejare dos opciones. 1. Se retiran como he hecho yo (solo que ellos al no tener almas gemelas o tener muy pocas lo perderian casi todo) 2.seguir jugando despues dle4 mantenimiento con el soft reboot.  (Lo que yo realmente busco es que elijan la primera y que despues con ele vento se sientan tentados a volver y entonces empezarian con menos personajes que el soft reboot).
+
+Vale. Entonces una vez el mantenimiento haya terminado actualizaré las reglas para añadir un tipo de jugador a  mi medida.  Me volveria el jugador banca con nuevas mecanicas:
+1. No puedo reclamar para mi mismo. 
+2. Puedo ofrecer  a trave de un tablon que seria un canal llamado misiones de la banca una recompensa por x personaje. Este tablon se iria actualizando con el tiempo..
+3. Gestiono prestamos. (Esto ya lo hago ahora)
+4. sistema de multas e impuestos. (algo como x mes todos pagan 100000 de kakera)
+
+Como jugador banca no me puedo retirar y no puedo perder los personajes que me quedan. (esto no estara en las reglas pero si me dan un personaje por mision me puedo poner a farmearle lalves y volver lo un soulmate para no tenerlo que soltar nunca).
+Ademas tambien hago esto para poder moderar el canal sin verme implicado directamente. (Ser mas imparcial) 
+
+Respecto al evento lo que tengo pensado es añadir una serie de personajes custom basados en yossix. 
+Ejemplo YossixMinita, Chunchunmaru, Una recompensa por 5 cartas del mismo tipo algo como  yossixexodia y demas.
+Por ejemplo un YossixStonks y el qeu lo encontrara se llevaria 5€ en paypal. 
+Ademas tambien añadiria como personajes custom los de azur lane que usualmente no suelen estar disponibles y los de arknights si hay espacio.
+
+Este es el mensaje que pondré hoy para avisar del mantenimineot del dia 31"
+ 
+ @AdictoALaPoligamia  El dia 31 empezará el mantenimiento del canal de #waifus-y-husbandos-💕 , este #canal-para-negocios👨💼  se podrá seguir usando. 
+El mantenimiento será largo. (Aproximadamente 2 semanas). Se avisará cuando este termine. 
+
+
+
+
+
+
+
+Comprar patreon 
+
+Player Premium II
+$ 10 / mes
+Mejorar plan
+Mostrar menos
+💛 For 30 days, per user ID (all your servers):
+
+ALL PLAYER PREMIUM 1 features and:
+
++2 rolls (for a total of +10)
+
++1 $mk (for a total of +2), command to force the spawn of a kakera boosted by +30%
+
++10% kakera from reacts, divorces, badges bonuses and $dk (for a total of +15%)
+
++1 $ouroquest per day to get more spheres from a minigame.
+
++5 wishlist slots (for a total of +23)
+
+$disable and $limroul minimum values lowered by 20% ($limroul 5600 5600 3200 3200)
+
++5 wishseries slots (for a total of 10, not affected by kakera perks)
+
++2 slots for the $preset lists
+
+Access to $haremcopy, command that let you copy your harem from a server to another (globally limited to one use per premium month).
+
+Conditions: the reception server must HAVE INVITED MUDAE FOR THE FIRST TIME DURING THE LAST 30 DAYS, and the owner of the reception server must confirm the command.
+
+Access to $kakeracopy, command that let you copy your kakera, kakeraloots and event badges from a server to another (globally limited to one use per premium month)
+
+Conditions: the reception server must HAVE INVITED MUDAE FOR THE FIRST TIME DURING THE LAST 30 DAYS, and the owner of the reception server must confirm the command.
+
+You can disable your player premium in specific servers or instances with $toggleplayerpremium
+
+Patreon T2 role in Mudae's main server (role removed at the same time as your pledge)
+
+⚠️ You can't buy this tier if you already subscribed to an equivalent or more expensive tier during this month! Patreon only charges by the difference with your former tier so you need a higher tier for more credits.
+
+⚙️ Activation: Link your Discord account to Patreon https://www.patreon.com/settings/apps
+
+This will make you join Mudae's main server (https://discord.gg/EEGkGSh) where you will be automatically mentioned for the premium activation.
+
+There might be a delay of 5 or 10 minutes after the payment.
+
+Note: the premium activation commands also work in any server with Mudae.
+
+Player Premium activation commands: type $player3, $player2 or $player1
+
+Server Premium activation commands: type $server3, $server2 or $server1
+
+If you upgrade your tier, Patreon only charges by the difference with your former tier.
+
+You will receive an adjusted amount of credits corresponding to what you really paid (the difference between the new tier and the former tier).
+
+"

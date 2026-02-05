@@ -1,0 +1,13 @@
+*.mp4
+*.zip
+*.mkv
+*.mov
+*.avi
+*.wmv
+*.flv
+*.webm
+*.iso
+*.rar
+node_modules/
+dist/
+.angular/

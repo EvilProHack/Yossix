@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clasificador Mudae</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: #1a1a2e;
+            color: #eee;
+            padding: 20px;
+            margin: 0;
+        }
+        h1 {
+            text-align: center;
+            color: #ff6b9d;
+        }
+        #file-loader {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #file-loader input {
+            padding: 10px;
+            font-size: 16px;
+        }
+        #character-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        #character-name {
+            font-size: 28px;
+            margin-bottom: 15px;
+            color: #ff6b9d;
+        }
+        #character-image {
+            max-width: 400px;
+            max-height: 500px;
+            border-radius: 10px;
+            border: 3px solid #ff6b9d;
+            margin-bottom: 20px;
+        }
+        #progress {
+            font-size: 18px;
+            margin-bottom: 15px;
+            color: #888;
+        }
+        #buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        #buttons button {
+            padding: 15px 25px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.1s, opacity 0.1s;
+        }
+        #buttons button:hover {
+            transform: scale(1.05);
+        }
+        #buttons button:active {
+            transform: scale(0.95);
+        }
+        .btn-keep {
+            background: #28a745;
+            color: white;
+        }
+        .btn-probably-keep {
+            background: #9acd32;
+            color: black;
+        }
+        .btn-probably-not {
+            background: #ffa500;
+            color: black;
+        }
+        .btn-not-keep {
+            background: #dc3545;
+            color: white;
+        }
+        #results {
+            /* Se controla con clase hidden */
+        }
+        .result-section {
+            margin-bottom: 30px;
+        }
+        .result-section h2 {
+            margin-bottom: 10px;
+        }
+        .result-section textarea {
+            width: 100%;
+            height: 200px;
+            background: #2a2a4a;
+            color: #eee;
+            border: 2px solid #444;
+            border-radius: 8px;
+            padding: 10px;
+            font-size: 14px;
+            resize: vertical;
+        }
+        .keep-section h2 { color: #28a745; }
+        .probably-keep-section h2 { color: #9acd32; }
+        .probably-not-section h2 { color: #ffa500; }
+        .not-keep-section h2 { color: #dc3545; }
+
+        #repeat-btn, #download-btn {
+            display: block;
+            margin: 20px auto;
+            padding: 20px 40px;
+            font-size: 20px;
+            background: #6f42c1;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        #repeat-btn:hover, #download-btn:hover {
+            background: #5a32a3;
+        }
+        #download-btn {
+            background: #17a2b8;
+        }
+        #download-btn:hover {
+            background: #138496;
+        }
+        .buttons-row {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .hidden {
+            display: none !important;
+        }
+        .btn-back {
+            margin-top: 15px;
+            padding: 10px 20px;
+            font-size: 14px;
+            background: #6c757d;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .btn-back:hover {
+            background: #5a6268;
+        }
+        .btn-back:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    <h1>Clasificador de Personajes Mudae</h1>
+
+    <div id="file-loader">
+        <p>Carga tu archivo inputs.txt:</p>
+        <input type="file" id="file-input" accept=".txt">
+    </div>
+
+    <div id="character-container" class="hidden">
+        <div id="progress"></div>
+        <div id="character-name"></div>
+        <img id="character-image" src="" alt="Personaje">
+        <div id="buttons">
+            <button class="btn-keep" onclick="classify('keep')">Se queda (1)</button>
+            <button class="btn-probably-keep" onclick="classify('probably-keep')">Probablemente se quede (2)</button>
+            <button class="btn-probably-not" onclick="classify('probably-not')">Probablemente NO se quede (3)</button>
+            <button class="btn-not-keep" onclick="classify('not-keep')">No se queda (4)</button>
+        </div>
+        <button id="back-btn" class="btn-back" onclick="goBack()">← Volver atrás (Backspace)</button>
+    </div>
+
+    <div id="results" class="hidden">
+        <div class="result-section keep-section">
+            <h2>SE QUEDAN</h2>
+            <textarea id="keep-list" readonly></textarea>
+        </div>
+        <div class="result-section probably-keep-section">
+            <h2>PROBABLEMENTE SE QUEDAN</h2>
+            <textarea id="probably-keep-list" readonly></textarea>
+        </div>
+        <div class="result-section probably-not-section">
+            <h2>PROBABLEMENTE NO SE QUEDAN</h2>
+            <textarea id="probably-not-list" readonly></textarea>
+        </div>
+        <div class="result-section not-keep-section">
+            <h2>NO SE QUEDAN</h2>
+            <textarea id="not-keep-list" readonly></textarea>
+        </div>
+
+        <div class="buttons-row">
+            <button id="download-btn" onclick="downloadResults()">Descargar resultados.txt</button>
+            <button id="repeat-btn" onclick="repeatUndecided()">Repetir con los "Probablemente"</button>
+        </div>
+    </div>
+
+    <script>
+        let characters = [];
+        let currentIndex = 0;
+        let classifications = {
+            'keep': [],
+            'probably-keep': [],
+            'probably-not': [],
+            'not-keep': []
+        };
+        let history = []; // Para poder volver atrás
+
+        document.getElementById('file-input').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                const content = e.target.result;
+                parseFile(content);
+            };
+            reader.readAsText(file);
+        });
+
+        function parseFile(content) {
+            const lines = content.split('\n');
+            characters = [];
+
+            for (let line of lines) {
+                line = line.trim();
+                if (!line || line === 'Imagen' || line.toLowerCase() === 'imagen') continue;
+
+                const parts = line.split(' - ');
+                if (parts.length >= 2) {
+                    const name = parts[0].trim();
+                    const url = parts.slice(1).join(' - ').trim();
+                    if (name && url) {
+                        characters.push({ name, url });
+                    }
+                }
+            }
+
+            if (characters.length > 0) {
+                document.getElementById('file-loader').classList.add('hidden');
+                document.getElementById('character-container').classList.remove('hidden');
+                currentIndex = 0;
+                history = [];
+                classifications = {
+                    'keep': [],
+                    'probably-keep': [],
+                    'probably-not': [],
+                    'not-keep': []
+                };
+                updateBackButton();
+                showCharacter();
+            } else {
+                alert('No se encontraron personajes en el archivo.');
+            }
+        }
+
+        function showCharacter() {
+            if (currentIndex >= characters.length) {
+                showResults();
+                return;
+            }
+
+            const char = characters[currentIndex];
+            document.getElementById('character-name').textContent = char.name;
+            document.getElementById('character-image').src = char.url;
+            document.getElementById('progress').textContent = `${currentIndex + 1} / ${characters.length}`;
+        }
+
+        function classify(category) {
+            const char = characters[currentIndex];
+            classifications[category].push(char);
+            history.push({ index: currentIndex, category: category });
+            currentIndex++;
+            updateBackButton();
+            showCharacter();
+        }
+
+        function goBack() {
+            if (history.length === 0) return;
+
+            const last = history.pop();
+            const category = last.category;
+
+            // Quitar el personaje de la categoría
+            classifications[category].pop();
+
+            // Volver al índice anterior
+            currentIndex = last.index;
+            updateBackButton();
+            showCharacter();
+        }
+
+        function updateBackButton() {
+            const btn = document.getElementById('back-btn');
+            btn.disabled = history.length === 0;
+        }
+
+        function showResults() {
+            document.getElementById('character-container').classList.add('hidden');
+            document.getElementById('results').classList.remove('hidden');
+
+            document.getElementById('keep-list').value =
+                classifications['keep'].map(c => `${c.name} - ${c.url}`).join('\n');
+            document.getElementById('probably-keep-list').value =
+                classifications['probably-keep'].map(c => `${c.name} - ${c.url}`).join('\n');
+            document.getElementById('probably-not-list').value =
+                classifications['probably-not'].map(c => `${c.name} - ${c.url}`).join('\n');
+            document.getElementById('not-keep-list').value =
+                classifications['not-keep'].map(c => `${c.name} - ${c.url}`).join('\n');
+
+            // Mostrar/ocultar boton de repetir
+            const hasUndecided = classifications['probably-keep'].length > 0 ||
+                                 classifications['probably-not'].length > 0;
+            document.getElementById('repeat-btn').classList.toggle('hidden', !hasUndecided);
+        }
+
+        function downloadResults() {
+            const texto = "=== SE QUEDAN (" + classifications['keep'].length + ") ===\n" +
+                classifications['keep'].map(c => c.name + " - " + c.url).join("\n") +
+                "\n\n=== PROBABLEMENTE SE QUEDAN (" + classifications['probably-keep'].length + ") ===\n" +
+                classifications['probably-keep'].map(c => c.name + " - " + c.url).join("\n") +
+                "\n\n=== PROBABLEMENTE NO SE QUEDAN (" + classifications['probably-not'].length + ") ===\n" +
+                classifications['probably-not'].map(c => c.name + " - " + c.url).join("\n") +
+                "\n\n=== NO SE QUEDAN (" + classifications['not-keep'].length + ") ===\n" +
+                classifications['not-keep'].map(c => c.name + " - " + c.url).join("\n");
+
+            const a = document.createElement('a');
+            a.href = URL.createObjectURL(new Blob([texto], {type: 'text/plain'}));
+            a.download = 'resultados.txt';
+            a.click();
+        }
+
+        function repeatUndecided() {
+            // Combinar los "probablemente" para volver a clasificar
+            characters = [
+                ...classifications['probably-keep'],
+                ...classifications['probably-not']
+            ];
+
+            // Mantener los seguros
+            const keepSure = classifications['keep'];
+            const notKeepSure = classifications['not-keep'];
+
+            // Reiniciar clasificaciones
+            classifications = {
+                'keep': keepSure,
+                'probably-keep': [],
+                'probably-not': [],
+                'not-keep': notKeepSure
+            };
+
+            currentIndex = 0;
+            history = [];
+
+            if (characters.length > 0) {
+                document.getElementById('results').classList.add('hidden');
+                document.getElementById('character-container').classList.remove('hidden');
+                updateBackButton();
+                showCharacter();
+            } else {
+                alert('No hay personajes indecisos para revisar.');
+            }
+        }
+
+        // Atajos de teclado
+        document.addEventListener('keydown', function(e) {
+            if (document.getElementById('character-container').classList.contains('hidden')) return;
+
+            switch(e.key) {
+                case '1': classify('keep'); break;
+                case '2': classify('probably-keep'); break;
+                case '3': classify('probably-not'); break;
+                case '4': classify('not-keep'); break;
+                case 'Backspace': goBack(); break;
+            }
+        });
+    </script>
+</body>
+</html>

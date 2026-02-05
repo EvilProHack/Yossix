@@ -1,0 +1,185 @@
+#html igual para todos
+<!-- html igual para todos -->
+<div id="sl-bridge-data" 
+     style="display:none;" 
+     data-name="{name}" 
+     data-amount="{amount}" 
+     data-currency="{currency}">
+</div>
+<!--  -->
+<div id="sl-bridge-message" style="display:none;">{message}</div>
+
+#Kicks
+
+#Bits
+// ==========================================
+// 🛠️ CONFIGURACIÓN MANUAL (EDITAR AQUÍ)
+// ==========================================
+
+// 1. TIPO DE EVENTO: Elige uno: 'bits', 'paypal' (o 'kicks' si lo tratas como dinero)
+// - 'bits':   Se enviará como CHEER (números enteros).
+// - 'paypal': Se enviará como TIP (dinero con decimales).
+var EVENT_SOURCE = 'bits'; 
+
+// 2. TU URL DE GOOGLE (La de siempre /exec)
+var APP_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzdRy5640M5_PcXBL4QwoGi9ZwtGPOYBmq3nGMjvrsGuOpsAAHLkJkwAeEND1qmTI2k/exec"; 
+
+
+// ==========================================
+// 🚀 LÓGICA AUTOMÁTICA (NO TOCAR ABAJO)
+// ==========================================
+(function() {
+    console.log("🟢 [" + EVENT_SOURCE.toUpperCase() + "] Script ejecutándose...");
+
+    // 1. LEER EL HTML (PUENTE)
+    var bridge = document.getElementById('sl-bridge-data');
+    var msgDiv = document.getElementById('sl-bridge-message');
+    
+    if (!bridge) {
+        console.error("⚠️ Error: No se encontró el puente HTML.");
+        return;
+    }
+
+    // 2. EXTRAER DATOS CRUDOS
+    var rawName = bridge.getAttribute('data-name');
+    var rawAmount = bridge.getAttribute('data-amount'); // Ej: "$10.00" o "1000"
+    var rawMessage = msgDiv ? msgDiv.innerText : "";
+
+    console.log("🔍 Datos Crudos:", { rawName, rawAmount, rawMessage });
+
+    // 3. LIMPIEZA Y CONVERSIÓN SEGÚN CONFIGURACIÓN
+    var finalAmount = 0;
+    var googleType = 'unknown';
+
+    // Limpiamos el texto de la cantidad (quitamos $, €, letras, espacios)
+    // Dejamos solo números y el punto decimal.
+    var cleanString = rawAmount.replace(/[^0-9.]/g, "");
+
+    if (EVENT_SOURCE === 'bits') {
+        // MODO BITS: Queremos enteros, sin decimales.
+        // Google Apps Script espera type: 'cheer'
+        googleType = 'cheer';
+        finalAmount = parseInt(cleanString);
+    } 
+    else {
+        // MODO PAYPAL / KICKS / MONEY: Queremos decimales.
+        // Google Apps Script espera type: 'tip'
+        googleType = 'tip';
+        finalAmount = parseFloat(cleanString);
+    }
+
+    // Validación final
+    if (isNaN(finalAmount) || finalAmount <= 0) {
+        console.log("❌ Cantidad inválida (0 o NaN), cancelando envío.");
+        return;
+    }
+
+    // 4. ENVIAR AL EXCEL
+    var payload = {
+        type: googleType,
+        username: rawName,
+        amount: finalAmount,
+        message: rawMessage
+    };
+
+    console.log("🚀 ENVIANDO A GOOGLE:", payload);
+    sendToGoogle(payload);
+
+})();
+
+function sendToGoogle(data) {
+    fetch(APP_SCRIPT_URL, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+    })
+    .then(function() { console.log("✅ Petición Fetch enviada."); })
+    .catch(function(err) { console.error("❌ Error Fetch:", err); });
+}
+#Paypal
+// ==========================================
+// 🛠️ CONFIGURACIÓN MANUAL (EDITAR AQUÍ)
+// ==========================================
+
+// 1. TIPO DE EVENTO: Elige uno: 'bits', 'paypal' (o 'kicks' si lo tratas como dinero)
+// - 'bits':   Se enviará como CHEER (números enteros).
+// - 'paypal': Se enviará como TIP (dinero con decimales).
+var EVENT_SOURCE = 'paypal'; 
+
+// 2. TU URL DE GOOGLE (La de siempre /exec)
+var APP_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzdRy5640M5_PcXBL4QwoGi9ZwtGPOYBmq3nGMjvrsGuOpsAAHLkJkwAeEND1qmTI2k/exec"; 
+
+
+// ==========================================
+// 🚀 LÓGICA AUTOMÁTICA (NO TOCAR ABAJO)
+// ==========================================
+(function() {
+    console.log("🟢 [" + EVENT_SOURCE.toUpperCase() + "] Script ejecutándose...");
+
+    // 1. LEER EL HTML (PUENTE)
+    var bridge = document.getElementById('sl-bridge-data');
+    var msgDiv = document.getElementById('sl-bridge-message');
+    
+    if (!bridge) {
+        console.error("⚠️ Error: No se encontró el puente HTML.");
+        return;
+    }
+
+    // 2. EXTRAER DATOS CRUDOS
+    var rawName = bridge.getAttribute('data-name');
+    var rawAmount = bridge.getAttribute('data-amount'); // Ej: "$10.00" o "1000"
+    var rawMessage = msgDiv ? msgDiv.innerText : "";
+
+    console.log("🔍 Datos Crudos:", { rawName, rawAmount, rawMessage });
+
+    // 3. LIMPIEZA Y CONVERSIÓN SEGÚN CONFIGURACIÓN
+    var finalAmount = 0;
+    var googleType = 'unknown';
+
+    // Limpiamos el texto de la cantidad (quitamos $, €, letras, espacios)
+    // Dejamos solo números y el punto decimal.
+    var cleanString = rawAmount.replace(/[^0-9.]/g, "");
+
+    if (EVENT_SOURCE === 'bits') {
+        // MODO BITS: Queremos enteros, sin decimales.
+        // Google Apps Script espera type: 'cheer'
+        googleType = 'cheer';
+        finalAmount = parseInt(cleanString);
+    } 
+    else {
+        // MODO PAYPAL / KICKS / MONEY: Queremos decimales.
+        // Google Apps Script espera type: 'tip'
+        googleType = 'tip';
+        finalAmount = parseFloat(cleanString);
+    }
+
+    // Validación final
+    if (isNaN(finalAmount) || finalAmount <= 0) {
+        console.log("❌ Cantidad inválida (0 o NaN), cancelando envío.");
+        return;
+    }
+
+    // 4. ENVIAR AL EXCEL
+    var payload = {
+        type: googleType,
+        username: rawName,
+        amount: finalAmount,
+        message: rawMessage
+    };
+
+    console.log("🚀 ENVIANDO A GOOGLE:", payload);
+    sendToGoogle(payload);
+
+})();
+
+function sendToGoogle(data) {
+    fetch(APP_SCRIPT_URL, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+    })
+    .then(function() { console.log("✅ Petición Fetch enviada."); })
+    .catch(function(err) { console.error("❌ Error Fetch:", err); });
+}

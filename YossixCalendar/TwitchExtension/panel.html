@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yossix Calendar Panel</title>
+    <!-- Twitch Extension Helper - Obligatorio -->
+    <script src="https://extension-files.twitch.tv/helper/v1/twitch-ext.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        #calendar-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+    <div id="calendar-container">
+        <!-- Cargamos la imagen desde Firebase para que se actualice sola sin resubir la extensión -->
+        <img id="calendar-img" src="https://yossix-calendar.web.app/Current.png" alt="Yossix Calendar">
+    </div>
+
+    <script src="viewer.js"></script>
+</body>
+</html>

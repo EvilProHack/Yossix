@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Bash(if exist node_modules echo \"node_modules exists\")",
+      "Bash(dir:*)",
+      "Bash(npm run build)",
+      "Bash(npx vite build)",
+      "Bash(powershell -Command:*)"
+    ]
+  }
+}
