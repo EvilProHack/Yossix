@@ -40,6 +40,16 @@ def get_openings(year):
 
     # Set to track processed songs to avoid duplicates
     processed_songs = set()
+    
+    # Load existing songs from the main CSV if it exists
+    main_csv = 'public/themes_data_v3.csv'
+    if os.path.exists(main_csv):
+        with open(main_csv, 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                # We can track by Anime + Song Name or just keep track of what's already there
+                processed_songs.add(f"{row['Anime']}|{row['Nombre']}")
+        print(f"Loaded {len(processed_songs)} existing songs from {main_csv}")
 
     # Ensure the save directories exist
     base_drive_path = f"G:\\DriveE\\{year}"
@@ -49,13 +59,8 @@ def get_openings(year):
     os.makedirs(videos_directory, exist_ok=True) 
     os.makedirs(images_directory, exist_ok=True)
 
-    csv_filename = f'openings_{year}.csv'
+    csv_filename = f'openings_{year}_new.csv' # Create a separate file for new ones
     
-    # If starting fresh, overwrite. If appending, we might duplicate headers if we don't check.
-    # For this script, assuming we overwrite or start clean is safer given the logic.
-    # But to match previous 'a' mode:
-    file_exists = os.path.isfile(csv_filename)
-
     while True:
         api_url = create_api_url(year, page_num=current_page)
         print(f"Fetching: {api_url}")
@@ -71,61 +76,71 @@ def get_openings(year):
             
         all_json.append(data)
 
-        with open(csv_filename, 'a', newline='', encoding='utf-8') as file:
-            writer = csv.writer(file)
-            if current_page == 1 and not file_exists:
-                writer.writerow(["Nombre", "Artista", "Enlace del video-web", "Nombre en la carpeta del drive", "Anime", "Imagen Web", "Nombre imagen drive", "Temporada", "Año"])
-                file_exists = True # Prevent writing header again
+        # We will collect new openings and write them at once or per page
+        new_openings_found = []
 
-            for anime in data['animethemes']:
-                song = anime['song']
-                anime_content = anime['anime'] 
-                nombre = song['title']
-                anime_name = anime_content['name']
-                season = anime_content.get('season', 'Unknown')
-                anime_year = anime_content.get('year', year)
-                song_id = song['id']
-                
-                if anime['animethemeentries'] and anime['animethemeentries'][0]['videos']:
-                    for video in anime['animethemeentries'][0]['videos']:
-                        video_link = video['link']
-                        
-                        # Filter for year if needed, though API query sorts by year. 
-                        # The original script checked: if str(year) in video['path']:
-                        # This might be specific to how files are named or organized on the API.
-                        # I'll keep it but it might be restrictive if the video path doesn't contain the year.
-                        # Actually, let's keep the logic as close to original as possible.
-                        if str(year) in video.get('path', ''):
-                            if song_id not in processed_songs:
-                                processed_songs.add(song_id)
-                                artistas = ", ".join([artist['name'] for artist in song['artists']])
+        for anime in data['animethemes']:
+            song = anime['song']
+            anime_content = anime['anime'] 
+            nombre = song['title']
+            anime_name = anime_content['name']
+            season = anime_content.get('season', 'Unknown')
+            anime_year = anime_content.get('year', year)
+            
+            song_key = f"{anime_name}|{nombre}"
+            
+            if anime['animethemeentries'] and anime['animethemeentries'][0]['videos']:
+                for video in anime['animethemeentries'][0]['videos']:
+                    video_link = video['link']
+                    
+                    if str(year) in video.get('path', ''):
+                        if song_key not in processed_songs:
+                            processed_songs.add(song_key)
+                            artistas = ", ".join([artist['name'] for artist in song['artists']])
+                            
+                            # Process Video
+                            video_name = video_link.split("/")[-1]
+                            save_video_path = os.path.join(videos_directory, video_name)
+                            download_file(video_link, save_video_path)
+                            
+                            # Process Image
+                            image_url = ""
+                            image_name = ""
+                            if 'images' in anime_content and anime_content['images']:
+                                cover = next((img for img in anime_content['images'] if img.get('facet') == 'Large Cover'), None)
+                                if not cover:
+                                    cover = next((img for img in anime_content['images'] if img.get('facet') == 'Common Cover'), None)
+                                if not cover:
+                                    cover = anime_content['images'][0]
                                 
-                                # Process Video
-                                video_name = video_link.split("/")[-1]
-                                save_video_path = os.path.join(videos_directory, video_name)
-                                # download_file(video_link, save_video_path) # Skipped for speed
-                                
-                                # Process Image
-                                image_url = ""
-                                image_name = ""
-                                if 'images' in anime_content and anime_content['images']:
-                                    # Try to find 'Large Cover', else 'Common Cover', else first available
-                                    cover = next((img for img in anime_content['images'] if img.get('facet') == 'Large Cover'), None)
-                                    if not cover:
-                                        cover = next((img for img in anime_content['images'] if img.get('facet') == 'Common Cover'), None)
-                                    if not cover:
-                                        cover = anime_content['images'][0]
-                                    
-                                    if cover:
-                                        image_url = cover['link']
-                                        image_name = image_url.split("/")[-1]
-                                        save_image_path = os.path.join(images_directory, image_name)
-                                        # download_file(image_url, save_image_path) # Skipped for speed
+                                if cover:
+                                    image_url = cover['link']
+                                    image_name = image_url.split("/")[-1]
+                                    save_image_path = os.path.join(images_directory, image_name)
+                                    download_file(image_url, save_image_path)
 
-                                # Write to CSV
-                                writer.writerow([nombre, artistas, video_link, video_name, anime_name, image_url, image_name, season, anime_year])
-                                added_to_csv.append(anime)
-                                break  # Break after processing the first video to avoid duplicates
+                            new_row = [nombre, artistas, video_link, video_name, anime_name, image_url, image_name, season, anime_year]
+                            new_openings_found.append(new_row)
+                            added_to_csv.append(anime)
+                            print(f"NEW OPENING FOUND: {anime_name} - {nombre}")
+                            break
+
+        if new_openings_found:
+            file_exists = os.path.isfile(csv_filename)
+            with open(csv_filename, 'a', newline='', encoding='utf-8') as file:
+                writer = csv.writer(file)
+                if not file_exists:
+                    writer.writerow(["Nombre", "Artista", "Enlace del video-web", "Nombre en la carpeta del drive", "Anime", "Imagen Web", "Nombre imagen drive", "Temporada", "Año"])
+                writer.writerows(new_openings_found)
+
+        current_page += 1
+        elapsed_time = time.time() - start_time
+        print(f"Tiempo transcurrido: {elapsed_time} segundos")
+
+        if 'links' in data and data['links']['next'] is None:
+            break
+        if 'links' not in data:
+            break
 
         current_page += 1
         elapsed_time = time.time() - start_time
