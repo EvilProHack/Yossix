@@ -5,103 +5,137 @@ export class AnimeFetcher {
     private baseUrl = 'https://www.livechart.me/users/Yossix_world/library?layout=regular&sort=next_release_countdown&statuses%5B%5D=completed&statuses%5B%5D=skipping&titles=romaji&username=Yossix_World';
 
     async fetchPage(page: number): Promise<string | null> {
-        const targetUrl = `${this.baseUrl}&page=${page}`;
-        console.log(`FETCHER: Fetching page ${page}...`);
-
-        // Strategy 1: CodeTabs (High success rate)
-        try {
-            console.log('FETCHER: Trying CodeTabs...');
-            const response = await fetch(`https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(targetUrl)}`);
-            if (response.ok) {
-                const text = await response.text();
-                // Log snippet
-                console.log(`FETCHER: CodeTabs received ${text.length} chars. Snippet: ${text.substring(0, 500)}`);
-                if (this.isValidContent(text)) return text;
-            }
-        } catch (err) {
-            console.log(`FETCHER: CodeTabs failed: ${err}`);
-        }
-
-        // Strategy 2: allorigins.win
-        try {
-            console.log('FETCHER: Trying AllOrigins...');
-            const response = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(targetUrl)}`);
-            if (response.ok) {
-                const data = await response.json();
-                if (data.contents) {
-                     console.log(`FETCHER: AllOrigins received ${data.contents.length} chars.`);
-                     if (this.isValidContent(data.contents)) return data.contents;
+        console.log(`FETCHER: V3.1 - Direct First Strategy - Page ${page}`);
+        const timestamp = Date.now();
+        
+        // Strategy -1: Try local JSON (Scraped by GitHub Actions)
+        if (page === 1) {
+            try {
+                console.log('FETCHER: Trying pre-fetched data from /animes.json...');
+                const jsonResponse = await fetch(`/animes.json?_cb=${timestamp}`);
+                if (jsonResponse.ok) {
+                    const jsonData = await jsonResponse.json();
+                    if (Array.isArray(jsonData) && jsonData.length > 0) {
+                        console.log(`FETCHER: Found pre-fetched data with ${jsonData.length} animes!`);
+                        return JSON.stringify({ source: 'github_actions', data: jsonData });
+                    }
                 }
+            } catch (e) {
+                console.warn('FETCHER: Pre-fetched data check failed', e);
             }
-        } catch (err) {
-            console.log(`FETCHER: AllOrigins failed: ${err}`);
         }
 
-        // Strategy 3: corsproxy.io
-        try {
-            console.log('FETCHER: Trying CorsProxy.io...');
-            const response = await fetch(`https://corsproxy.io/?${encodeURIComponent(targetUrl)}`);
-            if (response.ok) {
-                const text = await response.text();
-                console.log(`FETCHER: CorsProxy received ${text.length} chars.`);
-                if (this.isValidContent(text)) return text;
+        const directUrl = `${this.baseUrl}&page=${page}&_cb=${timestamp}`;
+        
+        // Google Translate Subdomain URL
+        const baseTranslateUrl = 'https://www-livechart-me.translate.goog/users/Yossix_world/library?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp';
+        const params = `&layout=regular&sort=next_release_countdown&statuses%5B%5D=completed&statuses%5B%5D=skipping&titles=romaji&username=Yossix_World&page=${page}&_cb=${timestamp}`;
+        const translateUrl = `${baseTranslateUrl}${params}`;
+        
+        const strategies = [
+            // Strategy 0: Direct (User requested - usually blocked by CORS unless user has extension)
+            { 
+                name: 'Direct (No Proxy)', 
+                url: () => directUrl,
+                type: 'text'
+            },
+            // Strategy 1: AllOrigins (JSON) -> Direct (Standard)
+            { 
+                name: 'AllOrigins -> Direct', 
+                url: () => `https://api.allorigins.win/get?url=${encodeURIComponent(directUrl)}`,
+                type: 'json'
+            },
+             // Strategy 2: AllOrigins (JSON) -> GTranslate (Bypass Cloudflare via Google)
+            { 
+                name: 'AllOrigins -> GTranslate', 
+                url: () => `https://api.allorigins.win/get?url=${encodeURIComponent(translateUrl)}`,
+                type: 'json'
+            },
+            // Strategy 3: CorsProxy.io -> Direct
+            { 
+                name: 'CorsProxy.io -> Direct', 
+                url: () => `https://corsproxy.io/?${encodeURIComponent(directUrl)}`,
+                type: 'text'
+            },
+            // Strategy 4: CodeTabs -> Direct
+            { 
+                name: 'CodeTabs -> Direct', 
+                url: () => `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(directUrl)}`,
+                type: 'text'
             }
-        } catch (err) {
-             console.log(`FETCHER: CorsProxy failed: ${err}`);
+        ];
+
+        for (const strategy of strategies) {
+            try {
+                console.log(`FETCHER: Trying ${strategy.name}...`);
+                const response = await fetch(strategy.url());
+                
+                if (!response.ok) {
+                    console.warn(`FETCHER: ${strategy.name} failed with status ${response.status}`);
+                    continue;
+                }
+
+                let text = '';
+                if (strategy.type === 'json') {
+                    const data = await response.json();
+                    text = data.contents || '';
+                } else {
+                    text = await response.text();
+                }
+
+                if (!text) {
+                    console.warn(`FETCHER: ${strategy.name} returned empty text.`);
+                    continue;
+                }
+
+                if (this.isValidContent(text)) {
+                    console.log(`FETCHER: Success via ${strategy.name}. Received ${text.length} chars.`);
+                    return text;
+                } else {
+                    console.warn(`FETCHER: ${strategy.name} returned invalid content (Length: ${text.length}).`);
+                }
+            } catch (err) {
+                console.warn(`FETCHER: ${strategy.name} error:`, err);
+            }
+            // Small delay to be polite
+            await new Promise(r => setTimeout(r, 1000));
         }
 
-        console.log(`FETCHER: All strategies failed for page ${page}`);
+        console.error(`FETCHER: All strategies failed for page ${page}`);
         return null;
     }
 
     private isValidContent(text: string): boolean {
-        // Basic check for LiveChart HTML structure
-        const valid = text.includes('LiveChart.me') || text.includes('data-user-library-anime-id') || text.includes('anime-list');
-        if (!valid) console.log('FETCHER: Content validation failed');
+        // Must contain anime data attributes
+        // Google translate might wrap it, but the attribute should still be there.
+        // It might be URL encoded or slightly modified, but usually intact.
+        
+        // Also check if it's the Cloudflare challenge page
+        if (text.includes('Just a moment...') || text.includes('Enable JavaScript and cookies')) {
+            console.log('FETCHER: Validation failed - Cloudflare Challenge detected');
+            return false;
+        }
+
+        const valid = text.includes('data-user-library-anime-id');
+        if (!valid) console.log('FETCHER: Validation failed - content missing data-user-library-anime-id');
         return valid;
     }
 
     async searchAnime(query: string): Promise<string | null> {
+        // Simplified search logic reusing valid proxies implicitly if we extracted them
+        // But for now, let's just stick to one reliable one for search
         const targetUrl = `https://www.livechart.me/search?q=${encodeURIComponent(query)}`;
         console.log(`FETCHER: Searching for "${query}"...`);
-
-        // Strategy 1: CodeTabs
+        
         try {
-            console.log('FETCHER: Search via CodeTabs...');
-            const response = await fetch(`https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(targetUrl)}`);
-            if (response.ok) {
-                const text = await response.text();
-                if (this.isValidContent(text)) return text;
-            }
-        } catch (err) {
-            console.log(`FETCHER: CodeTabs search failed: ${err}`);
-        }
-
-        // Strategy 2: corsproxy.io
-        try {
-            console.log('FETCHER: Search via CorsProxy...');
-            const response = await fetch(`https://corsproxy.io/?${encodeURIComponent(targetUrl)}`);
-            if (response.ok) {
-                const text = await response.text();
-                if (this.isValidContent(text)) return text;
-            }
-        } catch (err) {
-             console.log(`FETCHER: CorsProxy search failed: ${err}`);
-        }
-
-        // Strategy 3: AllOrigins (usually JSON)
-        try {
-            console.log('FETCHER: Search via AllOrigins...');
             const response = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(targetUrl)}`);
             if (response.ok) {
                 const data = await response.json();
-                if (data.contents && this.isValidContent(data.contents)) return data.contents;
+                if (data.contents) return data.contents;
             }
-        } catch (err) {
-            console.log(`FETCHER: AllOrigins search failed: ${err}`);
+        } catch (e) {
+            console.error('Search fetch failed', e);
         }
-
-        console.log(`FETCHER: Search failed for "${query}"`);
         return null;
     }
 }

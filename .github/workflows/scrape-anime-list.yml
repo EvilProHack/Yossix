@@ -1,0 +1,63 @@
+name: Scrape and Deploy Anime List
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # Every 6 hours
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+  checks: write
+
+jobs:
+  scrape_and_deploy:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./ListaDeAnimes
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        # Use npm install because npm ci might fail with legacy-peer-deps issues or lockfile mismatch
+        run: |
+          npm install --legacy-peer-deps
+          # Ensure full puppeteer is available for the script
+          npm install puppeteer --no-save --legacy-peer-deps
+
+      - name: Run Scraper
+        # This will create public/animes.json
+        run: node scripts/scrape.cjs
+        env:
+          GITHUB_ACTIONS: 'true'
+
+      - name: Verify Scraped Data
+        run: |
+          if [ -f "public/animes.json" ]; then
+            echo "✅ Data file created."
+            cat public/animes.json | head -c 100
+          else
+            echo "❌ Data file missing!"
+            exit 1
+          fi
+
+      - name: Build Angular App
+        # Vite will copy public/animes.json to dist/animes.json
+        run: npm run build
+
+      - name: Deploy to Firebase Hosting
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_YOSSIX_ANIME_LIST }}'
+          channelId: live
+          projectId: yossix-anime-list
+          entryPoint: ./ListaDeAnimes

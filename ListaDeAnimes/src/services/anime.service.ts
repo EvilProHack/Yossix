@@ -68,15 +68,19 @@ export class AnimeService {
     }
 
     // 4. Merge
+    // Use Jikan API to fetch Yossix_World list if Force Update is triggered
+    // But since fetchAllAnimes logic for library is broken, let's replace fetcher logic
+    // with Jikan logic inside forceUpdate if Fetcher fails or directly.
+    
     const combined = [...libraryAnimes, ...rouletteAnimes];
     this.log(`Total combined animes: ${combined.length}`);
     
     return combined;
   }
-
+  
   private getRouletteAnimesImmediate(): { animes: Anime[], missing: any[] } {
       this.log('Loading Roulette Animes from cache...');
-      const activeItems = ROULETTE_DATA.disks[0].items.filter(item => item.active);
+      const activeItems = ROULETTE_DATA.disks[0].items.filter(item => !!item && item.active);
       const cacheKey = 'yossix_roulette_metadata';
       const cachedMetaStr = localStorage.getItem(cacheKey);
       let metadataMap: Record<string, Anime> = {};
@@ -185,36 +189,69 @@ export class AnimeService {
   }
 
   async forceUpdate(): Promise<Anime[]> {
-    this.log('Starting Force Update...');
+    this.log('Starting Force Update using Jikan (MyAnimeList)...');
+    
+    // Yossix_World profile on MyAnimeList? Or fallback to LiveChart proxy?
+    // LiveChart proxies are failing (Cloudflare/bot protection).
+    // The user's LiveChart is "Yossix_World". 
+    // Does he have a MAL account? If not, we are stuck scraping.
+    // Assuming we must try scraping again with better retry or just admit defeat on LiveChart 
+    // and ONLY show Roulette items if scraping fails.
+    
+    // Wait, the user prompt said "get all animes from this url".
+    // If we cannot scrape LiveChart, we cannot get the list.
+    // Jikan is for MyAnimeList. 
+    
+    // Let's keep trying to scrape but with a fail-safe.
+    
     let allAnimes: Anime[] = [];
     let page = 1;
     let hasMore = true;
     let totalCount = 0;
-
-    // Hard limit to 20 pages for safety during debug
+    
+    // ... Existing scraping logic ...
+    // If scraping fails completely (0 items), we should at least return empty
+    // so the app doesn't crash, but maybe show an error in logs.
+    
     while (hasMore && page <= 20) {
       this.log(`Fetching page ${page}...`);
       const html = await this.fetcher.fetchPage(page);
       
-      if (!html) {
-          this.log(`ERROR: Page ${page} returned null HTML.`);
+      let pageAnimes: any[] = [];
+
+    if (!html) {
+          // If fetcher returned null, it means all strategies failed.
+          this.log(`ERROR: Page ${page} returned null HTML or blocked.`);
+          hasMore = false;
           break;
-      }
-      
-      this.log(`Page ${page} received ${html.length} chars.`);
+    }
 
-      if (page === 1) {
-         totalCount = this.parser.parseTotalCount(html);
-         this.log(`Parsed total count: ${totalCount}`);
-      }
+    // Check if it's the pre-fetched JSON from GitHub Actions
+    if (html.trim().startsWith('{')) {
+         const parsed = this.parser.parseHtml(html);
+         if (parsed && Array.isArray(parsed) && parsed.length > 0) {
+             this.log(`Loaded ${parsed.length} animes from GitHub Actions pre-fetched data.`);
+             allAnimes = parsed;
+             // If we loaded everything from JSON, we stop pagination
+             hasMore = false;
+             break;
+         }
+    }
 
-      const pageAnimes = this.parser.parseHtml(html);
-      this.log(`Parsed ${pageAnimes.length} animes from page ${page}.`);
+    pageAnimes = this.parser.parseHtml(html);
       
       if (pageAnimes.length === 0) {
-        hasMore = false;
-        this.log('Stopping: No animes found on this page.');
-        break;
+          // If page 1 returns 0 items, it might be a parsing error due to Cloudflare captcha page
+          if (page === 1) {
+             this.log('CRITICAL: No items found on page 1. Likely blocked by Cloudflare.');
+             
+             // FALLBACK: DISABLED (User confirmed no MAL account)
+             // this.log('Attempting fallback to Jikan API (MyAnimeList)...');
+             // try { ... }
+             this.log('Scraping blocked and no fallback available. Please try again later or check proxies.');
+          }
+          hasMore = false;
+          break;
       }
       
       allAnimes = [...allAnimes, ...pageAnimes];
@@ -223,20 +260,29 @@ export class AnimeService {
     
     const uniqueAnimes = this.removeDuplicates(allAnimes);
     this.log(`Total unique animes: ${uniqueAnimes.length}`);
-    
+
     if (uniqueAnimes.length > 0) {
         localStorage.setItem('yossix_anime_cache', JSON.stringify({
             animes: uniqueAnimes,
-            totalCount: totalCount > 0 ? totalCount : uniqueAnimes.length,
+            totalCount: uniqueAnimes.length, // approximation
             timestamp: Date.now()
         }));
+    } else {
+        this.log('Skipping cache update (0 items found).');
     }
 
     return uniqueAnimes;
   }
 
-
-
+  private mapJikanToAnime(entry: any, status: string): Anime {
+      return {
+          id: entry.mal_id ? `mal-${entry.mal_id}` : `jikan-${Math.random()}`,
+          title: entry.title,
+          image: entry.images?.jpg?.large_image_url || entry.images?.jpg?.image_url || 'assets/placeholder.png',
+          url: entry.url,
+          status: status
+      };
+  }
 
   private removeDuplicates(animes: Anime[]): Anime[] {
     const seen = new Set();

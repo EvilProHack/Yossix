@@ -808,7 +808,6 @@ export const ROULETTE_DATA = {
           "color": "#dc2626",
           "id": "ccef0e28-c688-447b-90ef-e9fc3fc6c9be"
         },
-
         {
           "id": "5da9cd41-84e8-4a58-aa73-7c5f194b2df7",
           "active": true,
@@ -962,8 +961,7 @@ export const ROULETTE_DATA = {
           "weight": 1,
           "color": "#000000",
           "id": "669492a7-2ae4-42be-84ef-693913fa9fd1"
-        },
-
+        }
       ],
       "driveLetter": "D",
       "label": "Castigos / Trolls"
