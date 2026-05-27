@@ -1,4 +1,5 @@
 name: Scrape and Deploy Anime List
+# workflow: anime scraper
 
 on:
   schedule:
