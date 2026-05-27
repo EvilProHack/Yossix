@@ -802,13 +802,6 @@ export const ROULETTE_DATA = {
           "color": "#374151"
         },
         {
-          "weight": 1,
-          "active": true,
-          "text": "Silent Witch",
-          "color": "#dc2626",
-          "id": "ccef0e28-c688-447b-90ef-e9fc3fc6c9be"
-        },
-        {
           "id": "5da9cd41-84e8-4a58-aa73-7c5f194b2df7",
           "active": true,
           "color": "#dc2626",
@@ -870,13 +863,6 @@ export const ROULETTE_DATA = {
           "active": true,
           "text": "Ore wa Seikan Kokka no Akutoku Ryoushu!",
           "id": "f4d2bf94-7d75-43dc-bb93-927c7224cd1e"
-        },
-        {
-          "text": "Silent Witch",
-          "active": true,
-          "id": "1993fee3-9fcf-464a-9782-72f745285918",
-          "weight": 1,
-          "color": "#111827"
         },
         {
           "weight": 1,
