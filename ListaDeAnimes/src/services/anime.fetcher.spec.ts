@@ -21,7 +21,8 @@ describe('AnimeFetcher', () => {
     });
 
     it('should return content immediately if Direct strategy succeeds', async () => {
-        // Mock fetch to return valid content on first call
+        // Prefetch check fails, then Direct succeeds
+        (global.fetch as any).mockResolvedValueOnce({ ok: false });
         (global.fetch as any).mockResolvedValueOnce({
             ok: true,
             status: 200,
@@ -30,14 +31,16 @@ describe('AnimeFetcher', () => {
 
         const result = await fetcher.fetchPage(1);
         
-        expect(global.fetch).toHaveBeenCalledTimes(1);
+        expect(global.fetch).toHaveBeenCalledTimes(2);
         expect(result).toBe(VALID_HTML);
         // Verify it called the direct URL
-        expect(global.fetch).toHaveBeenCalledWith(expect.stringContaining('livechart.me/users/Yossix_world'));
+        expect(global.fetch).toHaveBeenNthCalledWith(2, expect.stringContaining('livechart.me/users/Yossix_world'));
     });
 
     it('should retry with next strategy if first one fails (Network Error)', async () => {
-        // First call fails (Network error / CORS)
+        // Prefetch fails
+        (global.fetch as any).mockResolvedValueOnce({ ok: false });
+        // Direct fails (Network error / CORS)
         (global.fetch as any).mockRejectedValueOnce(new Error('CORS blocked'));
         
         // Second call succeeds (AllOrigins -> Direct)
@@ -54,12 +57,14 @@ describe('AnimeFetcher', () => {
         
         const result = await promise;
         
-        expect(global.fetch).toHaveBeenCalledTimes(2);
+        expect(global.fetch).toHaveBeenCalledTimes(3);
         expect(result).toBe(VALID_HTML);
     });
 
     it('should retry if content is invalid (Cloudflare Challenge)', async () => {
-        // First call returns 200 but is Cloudflare challenge
+        // Prefetch fails
+        (global.fetch as any).mockResolvedValueOnce({ ok: false });
+        // Direct returns 200 but is Cloudflare challenge
         (global.fetch as any).mockResolvedValueOnce({
             ok: true,
             status: 200,
@@ -80,13 +85,15 @@ describe('AnimeFetcher', () => {
 
         const result = await promise;
         
-        expect(global.fetch).toHaveBeenCalledTimes(2);
+        expect(global.fetch).toHaveBeenCalledTimes(3);
         expect(result).toBe(VALID_HTML);
     });
 
     it('should return null if all strategies fail', async () => {
-        // Mock all calls to fail
-        (global.fetch as any).mockRejectedValue(new Error('Failed'));
+        // Prefetch fails then all strategies fail
+        (global.fetch as any)
+            .mockResolvedValueOnce({ ok: false })
+            .mockRejectedValue(new Error('Failed'));
 
         const promise = fetcher.fetchPage(1);
         
@@ -98,6 +105,6 @@ describe('AnimeFetcher', () => {
         const result = await promise;
         
         expect(result).toBeNull();
-        expect(global.fetch).toHaveBeenCalledTimes(5);
+        expect(global.fetch).toHaveBeenCalledTimes(6);
     });
 });

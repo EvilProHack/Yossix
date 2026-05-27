@@ -1,7 +1,23 @@
+// @vitest-environment jsdom
 import { describe, it, expect, vi } from 'vitest';
 import { AnimeParser } from '../services/anime.parser';
 import { AnimeFetcher } from '../services/anime.fetcher';
 import { AnimeService } from '../services/anime.service';
+import { JikanService } from '../services/jikan.service';
+
+vi.mock('../data/roulette-data', () => ({
+    ROULETTE_DATA: {
+        disks: [
+            {
+                items: [
+                    { active: true, text: 'Akiba Maid Sensou', id: 'r1' },
+                    { active: true, text: 'Some Other Anime', id: 'r2' }
+                ]
+            }
+        ]
+    }
+}));
+
 
 // Mock content based on real HTML structure we observed
 const MOCK_HTML_PAGE_1 = `
@@ -62,7 +78,29 @@ describe('AnimeService Integration', () => {
         
         const parser = new AnimeParser(); // Real parser is fine here as it's pure logic
         
-        const service = new AnimeService(mockFetcher, parser);
+        const mockJikan = {
+            searchAnime: vi.fn()
+        } as unknown as JikanService;
+
+        localStorage.clear();
+        localStorage.setItem('yossix_roulette_metadata', JSON.stringify({
+            r1: {
+                id: 'r1',
+                title: 'Akiba Maid Sensou',
+                image: 'https://example.com/a.jpg',
+                url: 'https://example.com/a',
+                status: 'ruleta'
+            },
+            r2: {
+                id: 'r2',
+                title: 'Some Other Anime',
+                image: 'https://example.com/b.jpg',
+                url: 'https://example.com/b',
+                status: 'ruleta'
+            }
+        }));
+
+        const service = new AnimeService(mockFetcher, parser, mockJikan);
         
         // Mock fetcher to return null (end of pages) on second call
         mockFetcher.fetchPage = vi.fn()
@@ -71,7 +109,9 @@ describe('AnimeService Integration', () => {
 
         const animes = await service.fetchAllAnimes();
         
-        expect(animes).toHaveLength(2);
+        expect(animes).toHaveLength(3);
+        expect(animes.filter(anime => anime.title === 'Akiba Maid Sensou')).toHaveLength(1);
+        expect(animes.some(anime => anime.title === 'Some Other Anime' && anime.status === 'ruleta')).toBe(true);
         expect(mockFetcher.fetchPage).toHaveBeenCalledTimes(2);
     });
 });

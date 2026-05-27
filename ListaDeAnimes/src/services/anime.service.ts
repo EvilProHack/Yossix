@@ -60,7 +60,20 @@ export class AnimeService {
     }
 
     // 2. Load Roulette Animes (Immediate + Hydrate)
-    const { animes: rouletteAnimes, missing } = this.getRouletteAnimesImmediate();
+    const { animes: rouletteAnimesRaw, missing: missingRaw } = this.getRouletteAnimesImmediate();
+    const completedTitles = this.getCompletedTitleSet(libraryAnimes);
+    const rouletteAnimes = rouletteAnimesRaw.filter(anime => {
+        const key = this.normalizeTitle(anime.title);
+        return !key || !completedTitles.has(key);
+    });
+    const missing = missingRaw.filter(item => {
+        const key = this.normalizeTitle(item.text || '');
+        return !key || !completedTitles.has(key);
+    });
+    const removedFromRoulette = rouletteAnimesRaw.length - rouletteAnimes.length;
+    if (removedFromRoulette > 0) {
+        this.log(`Removed ${removedFromRoulette} roulette animes already completed.`);
+    }
     
     // 3. Hydrate missing images in background if any
     if (missing.length > 0) {
@@ -76,6 +89,26 @@ export class AnimeService {
     this.log(`Total combined animes: ${combined.length}`);
     
     return combined;
+  }
+
+  private normalizeTitle(title: string): string {
+      return title
+          .toLowerCase()
+          .normalize('NFKD')
+          .replace(/[\u0300-\u036f]/g, '')
+          .replace(/[^a-z0-9]+/g, '')
+          .trim();
+  }
+
+  private getCompletedTitleSet(animes: Anime[]): Set<string> {
+      const completed = new Set<string>();
+      for (const anime of animes) {
+          if (!anime?.title) continue;
+          if ((anime.status || '').toLowerCase() !== 'completed') continue;
+          const key = this.normalizeTitle(anime.title);
+          if (key) completed.add(key);
+      }
+      return completed;
   }
   
   private getRouletteAnimesImmediate(): { animes: Anime[], missing: any[] } {

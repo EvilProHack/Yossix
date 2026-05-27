@@ -1,9 +1,6 @@
+// @vitest-environment jsdom
 import { describe, it, expect } from 'vitest';
 import { AnimeParserLogic } from './anime.parser.logic';
-
-// Mock DOMParser since we run in Node
-import { JSDOM } from 'jsdom';
-global.DOMParser = new JSDOM().window.DOMParser;
 
 describe('AnimeParser', () => {
     const parser = new AnimeParserLogic();

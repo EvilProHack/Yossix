@@ -10,30 +10,43 @@ describe('AnimeFetcher', () => {
     });
 
     it('should return content from allorigins if successful', async () => {
+        const validHtml = '<div data-user-library-anime-id="1"></div>';
+        const prefetchResponse = { ok: false };
+        const directResponse = { ok: false, status: 500 };
         const mockResponse = {
             ok: true,
-            json: vi.fn().mockResolvedValue({ contents: '<html></html>' })
+            json: vi.fn().mockResolvedValue({ contents: validHtml })
         };
-        (global.fetch as any).mockResolvedValueOnce(mockResponse);
+        (global.fetch as any)
+            .mockResolvedValueOnce(prefetchResponse)
+            .mockResolvedValueOnce(directResponse)
+            .mockResolvedValueOnce(mockResponse);
 
         const result = await fetcher.fetchPage(1);
-        expect(result).toBe('<html></html>');
+        expect(result).toBe(validHtml);
+        expect(global.fetch).toHaveBeenCalledTimes(3);
         expect(global.fetch).toHaveBeenCalledWith(expect.stringContaining('api.allorigins.win'));
     });
 
     it('should fallback to corsproxy if allorigins fails', async () => {
         // First call fails
         (global.fetch as any)
+            .mockResolvedValueOnce({ ok: false })
+            // Direct fails
             .mockRejectedValueOnce(new Error('Network error'))
-            // Second call succeeds
+            // AllOrigins -> Direct fails
+            .mockResolvedValueOnce({ ok: false, status: 500 })
+            // AllOrigins -> GTranslate fails
+            .mockResolvedValueOnce({ ok: false, status: 500 })
+            // CorsProxy succeeds
             .mockResolvedValueOnce({
                 ok: true,
-                text: vi.fn().mockResolvedValue('<html>Fallback</html>')
+                text: vi.fn().mockResolvedValue('<div data-user-library-anime-id="2"></div>')
             });
 
         const result = await fetcher.fetchPage(1);
-        expect(result).toBe('<html>Fallback</html>');
-        expect(global.fetch).toHaveBeenCalledTimes(2);
-        expect(global.fetch).toHaveBeenNthCalledWith(2, expect.stringContaining('corsproxy.io'));
+        expect(result).toBe('<div data-user-library-anime-id="2"></div>');
+        expect(global.fetch).toHaveBeenCalledTimes(5);
+        expect(global.fetch).toHaveBeenNthCalledWith(5, expect.stringContaining('corsproxy.io'));
     });
 });
