@@ -33,6 +33,9 @@ const path = require('path');
 
         // Base URL without page param
         const baseUrl = 'https://www.livechart.me/users/Yossix_world/library?layout=regular&sort=next_release_countdown&statuses%5B%5D=completed&statuses%5B%5D=skipping&titles=romaji&username=Yossix_World';
+        const minCountRaw = process.env.MIN_ANIME_COUNT || '500';
+        const minCountParsed = Number.parseInt(minCountRaw, 10);
+        const minCount = Number.isFinite(minCountParsed) ? minCountParsed : 500;
         
         let allAnimes = [];
         let currentPage = 1;
@@ -128,13 +131,24 @@ const path = require('path');
         });
         console.log(`Unique Animes: ${uniqueAnimes.length} (removed ${allAnimes.length - uniqueAnimes.length} duplicates)`);
 
-        // Ensure public directory exists
         const publicDir = path.join(__dirname, '../public');
+        const outputPath = path.join(publicDir, 'animes.json');
+
+        if (uniqueAnimes.length < minCount) {
+            console.error(`Scrape too small (${uniqueAnimes.length}). Expected at least ${minCount}.`);
+            if (fs.existsSync(outputPath)) {
+                console.error('Keeping existing animes.json to avoid deploying empty data.');
+            } else {
+                console.error('No existing animes.json found to preserve.');
+            }
+            process.exit(2);
+        }
+
+        // Ensure public directory exists
         if (!fs.existsSync(publicDir)) {
             fs.mkdirSync(publicDir);
         }
-        
-        const outputPath = path.join(publicDir, 'animes.json');
+
         fs.writeFileSync(outputPath, JSON.stringify(uniqueAnimes, null, 2));
         console.log(`Data saved to ${outputPath}`);
         

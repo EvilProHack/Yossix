@@ -14,6 +14,8 @@ permissions:
 jobs:
   scrape_and_deploy:
     runs-on: ubuntu-latest
+    env:
+      MIN_ANIME_COUNT: '500'
     defaults:
       run:
         working-directory: ./ListaDeAnimes
@@ -49,6 +51,7 @@ jobs:
             echo "❌ Data file missing!"
             exit 1
           fi
+          node -e "const fs=require('fs');const min=Number(process.env.MIN_ANIME_COUNT||500);const data=JSON.parse(fs.readFileSync('public/animes.json','utf8'));if(!Array.isArray(data)||data.length<min){console.error('❌ Scrape too small:', Array.isArray(data)?data.length:'invalid');process.exit(1);}console.log('✅ Scrape count:', data.length);"
 
       - name: Build Angular App
         # Vite will copy public/animes.json to dist/animes.json
